@@ -1,0 +1,92 @@
+{
+  "execution_summary": {
+    "total_runtime_sec": 451.65,
+    "initial_rss_mb": 82.24,
+    "peak_rss_mb": 1294.64,
+    "final_rss_mb": 1287.32,
+    "rss_by_stage": {
+      "Initial State": 82.24,
+      "After S1 Precomputation": 326.83,
+      "After Target Strings Ingestion": 1294.64,
+      "After All Feature Datasets Saved": 1020.27,
+      "Final State": 1287.32
+    }
+  },
+  "feature_spec": {
+    "total_features": 36,
+    "feature_groups": {
+      "group_a_name_features": [
+        "name_exact_match",
+        "name_alphanumeric_match",
+        "name_token_jaccard",
+        "name_token_dice",
+        "name_token_overlap",
+        "name_jaro_winkler",
+        "name_normalized_levenshtein",
+        "name_lcs_similarity",
+        "name_char_3gram_jaccard",
+        "name_compressed_core_sim",
+        "name_length_diff",
+        "name_token_count_diff"
+      ],
+      "group_b_address_features": [
+        "addr_exact_match",
+        "addr_token_jaccard",
+        "addr_token_overlap",
+        "addr_char_3gram_jaccard",
+        "addr_normalized_levenshtein",
+        "addr_numeric_exact_match",
+        "addr_numeric_shared_count",
+        "addr_numeric_conflict",
+        "addr_postal_code_match",
+        "addr_rare_token_shared_count",
+        "addr_length_ratio",
+        "addr_token_count_diff"
+      ],
+      "group_c_cross_script_interaction_features": [
+        "is_cross_script",
+        "cross_script_x_addr_overlap",
+        "cross_script_x_numeric_match",
+        "country_code",
+        "target_source",
+        "primary_brand_match"
+      ],
+      "group_d_provenance_blocking_features": [
+        "block_hit_count",
+        "hit_block_a",
+        "hit_block_b",
+        "hit_block_c",
+        "hit_block_d",
+        "hit_block_g6"
+      ]
+    }
+  },
+  "dataset_benchmarks": {
+    "ratio_1_5": {
+      "total_rows": 517195,
+      "feature_columns": 36,
+      "file_size_mb": 17.99,
+      "extraction_time_sec": 38.68,
+      "file_path": "phase4/data\\pair_features_ratio_1_5.parquet"
+    },
+    "ratio_1_10": {
+      "total_rows": 947310,
+      "feature_columns": 36,
+      "file_size_mb": 31.4,
+      "extraction_time_sec": 127.85,
+      "file_path": "phase4/data\\pair_features_ratio_1_10.parquet"
+    },
+    "ratio_1_20": {
+      "total_rows": 1800777,
+      "feature_columns": 36,
+      "file_size_mb": 57.82,
+      "extraction_time_sec": 266.95,
+      "file_path": "phase4/data\\pair_features_ratio_1_20.parquet"
+    }
+  },
+  "artifact_paths": {
+    "ratio_1_5": "phase4/data\\pair_features_ratio_1_5.parquet",
+    "ratio_1_10": "phase4/data\\pair_features_ratio_1_10.parquet",
+    "ratio_1_20": "phase4/data\\pair_features_ratio_1_20.parquet"
+  }
+}

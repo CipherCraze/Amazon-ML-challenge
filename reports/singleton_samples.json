@@ -1,0 +1,120 @@
+{
+  "country_rates": {
+    "US": {
+      "singletons": 73896,
+      "total": 1323633,
+      "rate_pct": 5.5828
+    },
+    "India": {
+      "singletons": 49351,
+      "total": 883188,
+      "rate_pct": 5.5878
+    }
+  },
+  "samples": {
+    "US": [
+      {
+        "id": "S1-309349399",
+        "name": "Callicoat & Dailey Inc",
+        "addr": "Charlotte, NC, 833 Reliance Street"
+      },
+      {
+        "id": "S1-990319941",
+        "name": "Holy Synagogue",
+        "addr": "Sapulpa, OK, 2204 Park Street"
+      },
+      {
+        "id": "S1-965555167",
+        "name": "Siobhan's Bike Shop LLC",
+        "addr": "1644 Crownsville Road, Fl 0, Crownsville, MD"
+      },
+      {
+        "id": "S1-714672596",
+        "name": "Foot & Ankle Patriot Group",
+        "addr": "325 Cross Street, Unit LOT 1A, Anderson, IN"
+      },
+      {
+        "id": "S1-627144525",
+        "name": "Little Diner Center",
+        "addr": "AL, Hodges, 541 117"
+      },
+      {
+        "id": "S1-20267366",
+        "name": "Barbara Quinn Desert Better LLC",
+        "addr": "57 Powers Street, Dedham, MA"
+      },
+      {
+        "id": "S1-746273151",
+        "name": "Pediatric Dental Physicians Inc",
+        "addr": "53 Laroche Lane, Hebron, ME"
+      },
+      {
+        "id": "S1-862092661",
+        "name": "Beckman Family Office Inc",
+        "addr": "7916 Glendale Estates Drive, Henrico County, VA"
+      },
+      {
+        "id": "S1-374959431",
+        "name": "Mountain Star Pantages Inc",
+        "addr": "135 Ballentrae Court, Unit 417, Pittsboro, NC"
+      },
+      {
+        "id": "S1-622231151",
+        "name": "Colonial Muzero Inc",
+        "addr": "3403 29th Terrace, Topeka, KS"
+      }
+    ],
+    "India": [
+      {
+        "id": "S1-223600564",
+        "name": "Pushpam Institute Corp",
+        "addr": "1204, Block-C, Stratum @ Venus Ground, Nr. Jhansi Ki Rani Statue, Nehrunagar, Ahmadabad City, Ahmedabad, Gujarat"
+      },
+      {
+        "id": "S1-53323215",
+        "name": "Raj Consulting Pvt Ltd",
+        "addr": "701, Dlf Tower A, Jasola New Delhi, Delhi, New Delhi, Delhi"
+      },
+      {
+        "id": "S1-945468839",
+        "name": "Gc Traders Private Limited",
+        "addr": "H.No A-5 Gali No 20 G/F Madhu Vihar, Delhi, East Delhi, Delhi"
+      },
+      {
+        "id": "S1-391248994",
+        "name": "Smart Consulting Pvt Ltd",
+        "addr": "Kajala House, Ullody, Bela, Kasaragod, Kasargod, Kerala"
+      },
+      {
+        "id": "S1-49032225",
+        "name": "Lakshmi Builders Private Limited",
+        "addr": "D-109, Gauri Shanker Enclave, Prem Nagar-Iii Kirari Suleman Nagar, New Delhi, Delhi"
+      },
+      {
+        "id": "S1-979042353",
+        "name": "Surya & Brothers Pvt Ltd",
+        "addr": "No.237 8Th Block 4Th Lane K.K.D Nagar Kodungaiyur, Chennai, Tamil Nadu"
+      },
+      {
+        "id": "S1-55333937",
+        "name": "Ramesh Software Pvt Ltd",
+        "addr": "Second Floor Gowtham Arcade208 T V Samy Road East R S Puram, Coimbatore, Tamil Nadu"
+      },
+      {
+        "id": "S1-24519478",
+        "name": "Apex Finance Private Limited",
+        "addr": "68A, Pocket-1, Harsh Appartment Sector-10, Dwarka, New Delhi, South West Delhi, Delhi"
+      },
+      {
+        "id": "S1-40830766",
+        "name": "G.T. Road Properties LLP",
+        "addr": "84/105A, Kanpur, G.T. Road, Uttar Pradesh"
+      },
+      {
+        "id": "S1-545582895",
+        "name": "Global Techzone Foundation Limited",
+        "addr": "Plot No. 1, Gut No. 27, Bankarwadi Ranjangaon, Midc, Waluj, Aurangabad, Maharashtra"
+      }
+    ]
+  }
+}

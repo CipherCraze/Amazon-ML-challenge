@@ -1,0 +1,226 @@
+{
+  "execution_summary": {
+    "total_time_seconds": 12.26,
+    "peak_rss_mb": 555.82,
+    "num_validation_s1": 5000,
+    "validation_pairs_evaluated": 189054
+  },
+  "candidate_and_probability_profile": {
+    "cand_counts_percentiles": {
+      "min": 5,
+      "p25": 22.0,
+      "median": 33.0,
+      "mean": 37.8108,
+      "p75": 44.0,
+      "p95": 66.0,
+      "max": 110
+    },
+    "top1_accuracy": 0.9972,
+    "singleton_median_top1_prob": 0.0053,
+    "non_singleton_median_top1_prob": 0.9995
+  },
+  "decision_rules": {
+    "Rule_A_Global_Threshold": {
+      "description": "Global probability threshold tau = 0.6",
+      "threshold": 0.6,
+      "metrics": {
+        "macro_f05": 0.9628,
+        "singleton_accuracy": 0.9679,
+        "non_singleton_macro_f05": 0.9625,
+        "pairwise_precision": 0.9759,
+        "pairwise_recall": 0.9341,
+        "pairwise_f05": 0.9673,
+        "tp": 16141,
+        "fp": 398,
+        "fn": 1138,
+        "fp_per_s1": 0.0796
+      }
+    },
+    "Rule_B_Top1_Fallback": {
+      "description": "Threshold tau=0.6 + Top-1 fallback with fallback_tau=0.5",
+      "threshold": 0.6,
+      "fallback_tau": 0.5,
+      "metrics": {
+        "macro_f05": 0.9624,
+        "singleton_accuracy": 0.9429,
+        "non_singleton_macro_f05": 0.9635,
+        "pairwise_precision": 0.9755,
+        "pairwise_recall": 0.9345,
+        "pairwise_f05": 0.967,
+        "tp": 16147,
+        "fp": 405,
+        "fn": 1132,
+        "fp_per_s1": 0.081
+      }
+    },
+    "Rule_C_Score_Margin": {
+      "description": "Threshold tau=0.6 + Score Margin delta=0.3",
+      "threshold": 0.6,
+      "margin_delta": 0.3,
+      "metrics": {
+        "macro_f05": 0.9629,
+        "singleton_accuracy": 0.9679,
+        "non_singleton_macro_f05": 0.9626,
+        "pairwise_precision": 0.9838,
+        "pairwise_recall": 0.9185,
+        "pairwise_f05": 0.97,
+        "tp": 15870,
+        "fp": 262,
+        "fn": 1409,
+        "fp_per_s1": 0.0524
+      }
+    },
+    "Rule_D_Singleton_Guard": {
+      "description": "Threshold tau=0.6 + Singleton Guard guard_tau=0.55",
+      "threshold": 0.6,
+      "guard_tau": 0.55,
+      "metrics": {
+        "macro_f05": 0.9628,
+        "singleton_accuracy": 0.9679,
+        "non_singleton_macro_f05": 0.9625,
+        "pairwise_precision": 0.9759,
+        "pairwise_recall": 0.9341,
+        "pairwise_f05": 0.9673,
+        "tp": 16141,
+        "fp": 398,
+        "fn": 1138,
+        "fp_per_s1": 0.0796
+      }
+    },
+    "Rule_E_Multi_Match_Capping": {
+      "description": "Threshold tau=0.6 + Rank Cap K=5",
+      "threshold": 0.6,
+      "max_k": 5,
+      "metrics": {
+        "macro_f05": 0.9606,
+        "singleton_accuracy": 0.9679,
+        "non_singleton_macro_f05": 0.9602,
+        "pairwise_precision": 0.9818,
+        "pairwise_recall": 0.8982,
+        "pairwise_f05": 0.9638,
+        "tp": 15520,
+        "fp": 288,
+        "fn": 1759,
+        "fp_per_s1": 0.0576
+      }
+    }
+  },
+  "country_comparison": {
+    "single_global_tau": {
+      "tau": 0.6,
+      "macro_f05": 0.9628,
+      "pairwise_f05": 0.9673,
+      "precision": 0.9759,
+      "recall": 0.9341,
+      "fp_per_s1": 0.0796
+    },
+    "dual_country_tau": {
+      "tau_us": 0.6,
+      "tau_india": 0.6,
+      "macro_f05": 0.9628,
+      "pairwise_f05": 0.9673,
+      "precision": 0.9759,
+      "recall": 0.9341,
+      "fp_per_s1": 0.0796
+    },
+    "difference_macro_f05": 0.0
+  },
+  "subgroups": {
+    "country_US": {
+      "macro_f05": 0.9639,
+      "singleton_accuracy": 0.9762,
+      "non_singleton_macro_f05": 0.9632,
+      "pairwise_precision": 0.9759,
+      "pairwise_recall": 0.9376,
+      "pairwise_f05": 0.968,
+      "tp": 9708,
+      "fp": 240,
+      "fn": 646,
+      "fp_per_s1": 0.08
+    },
+    "country_India": {
+      "macro_f05": 0.961,
+      "singleton_accuracy": 0.9554,
+      "non_singleton_macro_f05": 0.9614,
+      "pairwise_precision": 0.976,
+      "pairwise_recall": 0.929,
+      "pairwise_f05": 0.9662,
+      "tp": 6433,
+      "fp": 158,
+      "fn": 492,
+      "fp_per_s1": 0.079
+    },
+    "script_same_script": {
+      "macro_f05": 0.962,
+      "singleton_accuracy": 0.97,
+      "non_singleton_macro_f05": 0.9615,
+      "pairwise_precision": 0.9745,
+      "pairwise_recall": 0.9373,
+      "pairwise_f05": 0.9668,
+      "tp": 10127,
+      "fp": 265,
+      "fn": 678,
+      "fp_per_s1": 0.0831
+    },
+    "script_cross_script": {
+      "macro_f05": 0.964,
+      "singleton_accuracy": 0.9625,
+      "non_singleton_macro_f05": 0.9641,
+      "pairwise_precision": 0.9784,
+      "pairwise_recall": 0.9289,
+      "pairwise_f05": 0.9681,
+      "tp": 6014,
+      "fp": 133,
+      "fn": 460,
+      "fp_per_s1": 0.0734
+    },
+    "cardinality_singleton": {
+      "macro_f05": 0.9679,
+      "singleton_accuracy": 0.9679,
+      "non_singleton_macro_f05": 0.0,
+      "pairwise_precision": 0.0,
+      "pairwise_recall": 0.0,
+      "pairwise_f05": 0.0,
+      "tp": 0,
+      "fp": 10,
+      "fn": 0,
+      "fp_per_s1": 0.0357
+    },
+    "cardinality_non_singleton": {
+      "macro_f05": 0.9625,
+      "singleton_accuracy": 0.0,
+      "non_singleton_macro_f05": 0.9625,
+      "pairwise_precision": 0.9765,
+      "pairwise_recall": 0.9341,
+      "pairwise_f05": 0.9677,
+      "tp": 16141,
+      "fp": 388,
+      "fn": 1138,
+      "fp_per_s1": 0.0822
+    },
+    "target_Source_2": {
+      "pairwise_precision": 0.9778,
+      "pairwise_recall": 0.9327,
+      "pairwise_f05": 0.9684,
+      "tp": 7801,
+      "fp": 177,
+      "fn": 563
+    },
+    "target_Source_3": {
+      "pairwise_precision": 0.9742,
+      "pairwise_recall": 0.9355,
+      "pairwise_f05": 0.9662,
+      "tp": 8340,
+      "fp": 221,
+      "fn": 575
+    }
+  },
+  "generalization_check": {
+    "fold1_tuned_tau": 0.65,
+    "fold2_tested_macro_f05": 0.9606,
+    "fold2_tuned_tau": 0.6,
+    "fold1_tested_macro_f05": 0.9637,
+    "mean_out_of_sample_macro_f05": 0.9622,
+    "tau_delta": 0.05
+  }
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "strategy": "1. Baseline G6 (DF <= 2500)",
+    "avg_g6_cands_s1": 505.69,
+    "avg_pipe_cands_s1": 1275.08,
+    "pipe_gt_recall": 95.91,
+    "us_recall": 97.83,
+    "india_recall": 93.04,
+    "cross_script_recall": 89.12,
+    "total_test_cands_m": 2422.7,
+    "est_validator_ram_gb": 155.69
+  },
+  {
+    "strategy": "2. Sweep: G6 DF <= 1500",
+    "avg_g6_cands_s1": 367.36,
+    "avg_pipe_cands_s1": 1136.83,
+    "pipe_gt_recall": 95.84,
+    "us_recall": 97.82,
+    "india_recall": 92.87,
+    "cross_script_recall": 88.83,
+    "total_test_cands_m": 2033.5,
+    "est_validator_ram_gb": 130.67
+  },
+  {
+    "strategy": "3. Sweep: G6 DF <= 1000",
+    "avg_g6_cands_s1": 283.25,
+    "avg_pipe_cands_s1": 1052.79,
+    "pipe_gt_recall": 95.75,
+    "us_recall": 97.81,
+    "india_recall": 92.67,
+    "cross_script_recall": 88.48,
+    "total_test_cands_m": 1796.9,
+    "est_validator_ram_gb": 115.47
+  },
+  {
+    "strategy": "4. Sweep: G6 DF <= 750",
+    "avg_g6_cands_s1": 235.57,
+    "avg_pipe_cands_s1": 1005.16,
+    "pipe_gt_recall": 95.68,
+    "us_recall": 97.8,
+    "india_recall": 92.5,
+    "cross_script_recall": 88.22,
+    "total_test_cands_m": 1661.8,
+    "est_validator_ram_gb": 106.79
+  },
+  {
+    "strategy": "5. Sweep: G6 DF <= 500",
+    "avg_g6_cands_s1": 177.46,
+    "avg_pipe_cands_s1": 947.1,
+    "pipe_gt_recall": 95.55,
+    "us_recall": 97.79,
+    "india_recall": 92.19,
+    "cross_script_recall": 87.61,
+    "total_test_cands_m": 1496.7,
+    "est_validator_ram_gb": 96.18
+  },
+  {
+    "strategy": "6. Sweep: G6 DF <= 250",
+    "avg_g6_cands_s1": 106.89,
+    "avg_pipe_cands_s1": 876.6,
+    "pipe_gt_recall": 95.23,
+    "us_recall": 97.77,
+    "india_recall": 91.42,
+    "cross_script_recall": 86.32,
+    "total_test_cands_m": 1296.2,
+    "est_validator_ram_gb": 83.29
+  },
+  {
+    "strategy": "7. Sweep: G6 DF <= 100",
+    "avg_g6_cands_s1": 53.7,
+    "avg_pipe_cands_s1": 823.48,
+    "pipe_gt_recall": 94.63,
+    "us_recall": 97.64,
+    "india_recall": 90.12,
+    "cross_script_recall": 84.31,
+    "total_test_cands_m": 1145.8,
+    "est_validator_ram_gb": 73.63
+  },
+  {
+    "strategy": "8. Multi-G6 (>= 2 keys)",
+    "avg_g6_cands_s1": 80.94,
+    "avg_pipe_cands_s1": 851.32,
+    "pipe_gt_recall": 90.74,
+    "us_recall": 92.5,
+    "india_recall": 88.11,
+    "cross_script_recall": 80.85,
+    "total_test_cands_m": 1240.2,
+    "est_validator_ram_gb": 79.7
+  },
+  {
+    "strategy": "9. Multi-G6 (>= 3 keys)",
+    "avg_g6_cands_s1": 25.16,
+    "avg_pipe_cands_s1": 795.65,
+    "pipe_gt_recall": 90.12,
+    "us_recall": 92.26,
+    "india_recall": 86.91,
+    "cross_script_recall": 78.91,
+    "total_test_cands_m": 1074.3,
+    "est_validator_ram_gb": 69.04
+  },
+  {
+    "strategy": "10. Hybrid: Multi-G6 + Single-G6 (DF <= 100)",
+    "avg_g6_cands_s1": 122.51,
+    "avg_pipe_cands_s1": 892.19,
+    "pipe_gt_recall": 95.28,
+    "us_recall": 97.67,
+    "india_recall": 91.71,
+    "cross_script_recall": 86.87,
+    "total_test_cands_m": 1350.1,
+    "est_validator_ram_gb": 86.76
+  },
+  {
+    "strategy": "11. Hybrid: Multi-G6 + Single-G6 (DF <= 250)",
+    "avg_g6_cands_s1": 166.28,
+    "avg_pipe_cands_s1": 935.91,
+    "pipe_gt_recall": 95.52,
+    "us_recall": 97.77,
+    "india_recall": 92.14,
+    "cross_script_recall": 87.57,
+    "total_test_cands_m": 1472.6,
+    "est_validator_ram_gb": 94.63
+  },
+  {
+    "strategy": "12. Hybrid: Multi-G6 + Single-G6 (DF <= 500)",
+    "avg_g6_cands_s1": 224.18,
+    "avg_pipe_cands_s1": 993.77,
+    "pipe_gt_recall": 95.68,
+    "us_recall": 97.79,
+    "india_recall": 92.52,
+    "cross_script_recall": 88.2,
+    "total_test_cands_m": 1635.6,
+    "est_validator_ram_gb": 105.1
+  },
+  {
+    "strategy": "13. Rarity Top-50",
+    "avg_g6_cands_s1": 35.58,
+    "avg_pipe_cands_s1": 805.39,
+    "pipe_gt_recall": 94.39,
+    "us_recall": 97.54,
+    "india_recall": 89.67,
+    "cross_script_recall": 83.6,
+    "total_test_cands_m": 1094.0,
+    "est_validator_ram_gb": 70.3
+  },
+  {
+    "strategy": "14. Rarity Top-100",
+    "avg_g6_cands_s1": 61.42,
+    "avg_pipe_cands_s1": 831.18,
+    "pipe_gt_recall": 94.82,
+    "us_recall": 97.71,
+    "india_recall": 90.5,
+    "cross_script_recall": 84.94,
+    "total_test_cands_m": 1164.0,
+    "est_validator_ram_gb": 74.8
+  },
+  {
+    "strategy": "15. Rarity Top-250",
+    "avg_g6_cands_s1": 123.71,
+    "avg_pipe_cands_s1": 893.38,
+    "pipe_gt_recall": 95.26,
+    "us_recall": 97.79,
+    "india_recall": 91.47,
+    "cross_script_recall": 86.47,
+    "total_test_cands_m": 1335.7,
+    "est_validator_ram_gb": 85.83
+  },
+  {
+    "strategy": "16. Hybrid: Multi-G6 + Top-50 Single-G6",
+    "avg_g6_cands_s1": 114.41,
+    "avg_pipe_cands_s1": 884.1,
+    "pipe_gt_recall": 95.12,
+    "us_recall": 97.6,
+    "india_recall": 91.41,
+    "cross_script_recall": 86.41,
+    "total_test_cands_m": 1326.6,
+    "est_validator_ram_gb": 85.25
+  },
+  {
+    "strategy": "17. Hybrid: Multi-G6 + Top-100 Single-G6",
+    "avg_g6_cands_s1": 138.79,
+    "avg_pipe_cands_s1": 908.44,
+    "pipe_gt_recall": 95.33,
+    "us_recall": 97.73,
+    "india_recall": 91.74,
+    "cross_script_recall": 86.94,
+    "total_test_cands_m": 1392.6,
+    "est_validator_ram_gb": 89.49
+  },
+  {
+    "strategy": "18. Query-Adaptive (<=100 keep all, >100 Multi+Top50)",
+    "avg_g6_cands_s1": 115.73,
+    "avg_pipe_cands_s1": 885.42,
+    "pipe_gt_recall": 95.18,
+    "us_recall": 97.67,
+    "india_recall": 91.45,
+    "cross_script_recall": 86.49,
+    "total_test_cands_m": 1329.8,
+    "est_validator_ram_gb": 85.45
+  }
+]

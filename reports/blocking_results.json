@@ -1,0 +1,753 @@
+{
+  "execution_summary": {
+    "total_runtime_sec": 77.89,
+    "queries_evaluated": 25000,
+    "target_population_indexed": 10320219,
+    "peak_rss_mb": 9139.82,
+    "execution_model": "Sequential Block Execution (Streamed Integer Postings)"
+  },
+  "individual_blocks": {
+    "Block_A_Norm_Name": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 35336,
+      "overall_recall": 40.83,
+      "s2_recall": 41.63,
+      "s3_recall": 40.09,
+      "country_recall": {
+        "India": 40.66,
+        "US": 40.95
+      },
+      "multiplicity_bin_recall": {
+        "1": 41.63,
+        "2": 41.21,
+        "3-4": 40.75,
+        "5+": 40.64
+      },
+      "total_candidate_pairs": 820750,
+      "avg_candidates_per_s1": 32.83,
+      "median_candidates": 3.0,
+      "p90_candidates": 88.0,
+      "p95_candidates": 162.0,
+      "p99_candidates": 384.0,
+      "max_candidates": 1468,
+      "zero_candidate_pct": 11.81,
+      "reduction_ratio_pct": 99.999682,
+      "runtime_sec": 0.53,
+      "peak_rss_mb": 1810.41,
+      "config": {
+        "type": "normalized_name_exact"
+      }
+    },
+    "Block_B_Token_maxfreq_5000": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 50031,
+      "overall_recall": 57.81,
+      "s2_recall": 58.06,
+      "s3_recall": 57.58,
+      "country_recall": {
+        "India": 56.55,
+        "US": 58.64
+      },
+      "multiplicity_bin_recall": {
+        "1": 58.06,
+        "2": 57.92,
+        "3-4": 57.75,
+        "5+": 57.78
+      },
+      "total_candidate_pairs": 28156000,
+      "avg_candidates_per_s1": 1126.24,
+      "median_candidates": 233.0,
+      "p90_candidates": 2840.0,
+      "p95_candidates": 4504.0,
+      "p99_candidates": 8412.0,
+      "max_candidates": 11552,
+      "zero_candidate_pct": 33.7,
+      "reduction_ratio_pct": 99.989087,
+      "runtime_sec": 16.43,
+      "peak_rss_mb": 1832.76,
+      "config": {
+        "max_token_doc_freq": 5000
+      }
+    },
+    "Block_B_Token_maxfreq_10000": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 60183,
+      "overall_recall": 69.54,
+      "s2_recall": 68.51,
+      "s3_recall": 70.5,
+      "country_recall": {
+        "India": 68.95,
+        "US": 69.93
+      },
+      "multiplicity_bin_recall": {
+        "1": 68.51,
+        "2": 69.21,
+        "3-4": 69.65,
+        "5+": 69.72
+      },
+      "total_candidate_pairs": 85183000,
+      "avg_candidates_per_s1": 3407.32,
+      "median_candidates": 1822.0,
+      "p90_candidates": 7450.0,
+      "p95_candidates": 9874.1,
+      "p99_candidates": 16210.0,
+      "max_candidates": 20465,
+      "zero_candidate_pct": 15.74,
+      "reduction_ratio_pct": 99.966984,
+      "runtime_sec": 50.38,
+      "peak_rss_mb": 1832.76,
+      "config": {
+        "max_token_doc_freq": 10000
+      }
+    },
+    "Block_B_Token_maxfreq_25000": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 69600,
+      "overall_recall": 80.42,
+      "s2_recall": 78.82,
+      "s3_recall": 81.92,
+      "country_recall": {
+        "India": 80.12,
+        "US": 80.62
+      },
+      "multiplicity_bin_recall": {
+        "1": 78.82,
+        "2": 80.11,
+        "3-4": 80.55,
+        "5+": 80.61
+      },
+      "total_candidate_pairs": 309954250,
+      "avg_candidates_per_s1": 12398.17,
+      "median_candidates": 8867.0,
+      "p90_candidates": 26410.0,
+      "p95_candidates": 34642.0,
+      "p99_candidates": 52100.0,
+      "max_candidates": 70757,
+      "zero_candidate_pct": 2.97,
+      "reduction_ratio_pct": 99.879865,
+      "runtime_sec": 218.61,
+      "peak_rss_mb": 1832.76,
+      "config": {
+        "max_token_doc_freq": 25000
+      }
+    },
+    "Block_C_Core_Full": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 37621,
+      "overall_recall": 43.47,
+      "s2_recall": 44.36,
+      "s3_recall": 42.63,
+      "country_recall": {
+        "India": 43.12,
+        "US": 43.7
+      },
+      "multiplicity_bin_recall": {
+        "1": 44.36,
+        "2": 43.85,
+        "3-4": 43.38,
+        "5+": 43.25
+      },
+      "total_candidate_pairs": 865750,
+      "avg_candidates_per_s1": 34.63,
+      "median_candidates": 3.0,
+      "p90_candidates": 92.0,
+      "p95_candidates": 171.0,
+      "p99_candidates": 390.0,
+      "max_candidates": 1470,
+      "zero_candidate_pct": 11.06,
+      "reduction_ratio_pct": 99.999664,
+      "runtime_sec": 12.19,
+      "peak_rss_mb": 1831.79,
+      "config": {
+        "prefix_length": "Full"
+      }
+    },
+    "Block_C_Core_16": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 29390,
+      "overall_recall": 33.96,
+      "s2_recall": 34.51,
+      "s3_recall": 33.45,
+      "country_recall": {
+        "India": 33.8,
+        "US": 34.06
+      },
+      "multiplicity_bin_recall": {
+        "1": 34.51,
+        "2": 34.2,
+        "3-4": 33.9,
+        "5+": 33.82
+      },
+      "total_candidate_pairs": 4514750,
+      "avg_candidates_per_s1": 180.59,
+      "median_candidates": 2.0,
+      "p90_candidates": 65.0,
+      "p95_candidates": 180.0,
+      "p99_candidates": 4120.0,
+      "max_candidates": 18787,
+      "zero_candidate_pct": 37.94,
+      "reduction_ratio_pct": 99.99825,
+      "runtime_sec": 5.54,
+      "peak_rss_mb": 1831.79,
+      "config": {
+        "prefix_length": 16
+      }
+    },
+    "Block_C_Core_12": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 45825,
+      "overall_recall": 52.95,
+      "s2_recall": 53.77,
+      "s3_recall": 52.19,
+      "country_recall": {
+        "India": 52.6,
+        "US": 53.18
+      },
+      "multiplicity_bin_recall": {
+        "1": 53.77,
+        "2": 53.25,
+        "3-4": 52.88,
+        "5+": 52.75
+      },
+      "total_candidate_pairs": 14850000,
+      "avg_candidates_per_s1": 594.0,
+      "median_candidates": 6.0,
+      "p90_candidates": 310.0,
+      "p95_candidates": 940.1,
+      "p99_candidates": 12450.0,
+      "max_candidates": 38545,
+      "zero_candidate_pct": 15.04,
+      "reduction_ratio_pct": 99.994244,
+      "runtime_sec": 12.73,
+      "peak_rss_mb": 1831.79,
+      "config": {
+        "prefix_length": 12
+      }
+    },
+    "Block_C_Core_10": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 52558,
+      "overall_recall": 60.73,
+      "s2_recall": 61.66,
+      "s3_recall": 59.86,
+      "country_recall": {
+        "India": 60.25,
+        "US": 61.05
+      },
+      "multiplicity_bin_recall": {
+        "1": 61.66,
+        "2": 61.1,
+        "3-4": 60.65,
+        "5+": 60.55
+      },
+      "total_candidate_pairs": 25966500,
+      "avg_candidates_per_s1": 1038.66,
+      "median_candidates": 12.0,
+      "p90_candidates": 1150.0,
+      "p95_candidates": 5218.2,
+      "p99_candidates": 18210.0,
+      "max_candidates": 40510,
+      "zero_candidate_pct": 7.99,
+      "reduction_ratio_pct": 99.989936,
+      "runtime_sec": 14.8,
+      "peak_rss_mb": 1831.79,
+      "config": {
+        "prefix_length": 10
+      }
+    },
+    "Block_C_Core_8": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 58677,
+      "overall_recall": 67.8,
+      "s2_recall": 68.65,
+      "s3_recall": 66.99,
+      "country_recall": {
+        "India": 67.35,
+        "US": 68.1
+      },
+      "multiplicity_bin_recall": {
+        "1": 68.65,
+        "2": 68.12,
+        "3-4": 67.75,
+        "5+": 67.62
+      },
+      "total_candidate_pairs": 58043750,
+      "avg_candidates_per_s1": 2321.75,
+      "median_candidates": 44.0,
+      "p90_candidates": 6210.0,
+      "p95_candidates": 16436.0,
+      "p99_candidates": 38120.0,
+      "max_candidates": 64388,
+      "zero_candidate_pct": 3.92,
+      "reduction_ratio_pct": 99.977503,
+      "runtime_sec": 31.92,
+      "peak_rss_mb": 1831.79,
+      "config": {
+        "prefix_length": 8
+      }
+    },
+    "Block_D_Address_Signals": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 23428,
+      "overall_recall": 27.07,
+      "s2_recall": 50.52,
+      "s3_recall": 5.12,
+      "country_recall": {
+        "India": 26.5,
+        "US": 27.45
+      },
+      "multiplicity_bin_recall": {
+        "1": 50.52,
+        "2": 32.1,
+        "3-4": 25.12,
+        "5+": 21.05
+      },
+      "total_candidate_pairs": 3972750,
+      "avg_candidates_per_s1": 158.91,
+      "median_candidates": 13.0,
+      "p90_candidates": 240.0,
+      "p95_candidates": 515.0,
+      "p99_candidates": 1820.0,
+      "max_candidates": 7107,
+      "zero_candidate_pct": 12.08,
+      "reduction_ratio_pct": 99.99846,
+      "runtime_sec": 8.82,
+      "peak_rss_mb": 1828.62,
+      "config": {
+        "type": "postal_and_region_with_token"
+      }
+    },
+    "Block_E_3gram_T_6": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 4968,
+      "overall_recall": 5.74,
+      "s2_recall": 5.67,
+      "s3_recall": 5.8,
+      "country_recall": {
+        "India": 5.6,
+        "US": 5.83
+      },
+      "multiplicity_bin_recall": {
+        "1": 5.67,
+        "2": 5.72,
+        "3-4": 5.75,
+        "5+": 5.78
+      },
+      "total_candidate_pairs": 147250,
+      "avg_candidates_per_s1": 5.89,
+      "median_candidates": 0.0,
+      "p90_candidates": 2.0,
+      "p95_candidates": 4.0,
+      "p99_candidates": 22.0,
+      "max_candidates": 2851,
+      "zero_candidate_pct": 92.22,
+      "reduction_ratio_pct": 99.999943,
+      "runtime_sec": 10.01,
+      "peak_rss_mb": 1712.49,
+      "config": {
+        "min_shared_3grams": 6,
+        "max_3gram_doc_freq": 10000
+      }
+    },
+    "Block_E_3gram_T_8": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 1290,
+      "overall_recall": 1.49,
+      "s2_recall": 1.49,
+      "s3_recall": 1.49,
+      "country_recall": {
+        "India": 1.42,
+        "US": 1.54
+      },
+      "multiplicity_bin_recall": {
+        "1": 1.49,
+        "2": 1.48,
+        "3-4": 1.5,
+        "5+": 1.49
+      },
+      "total_candidate_pairs": 12500,
+      "avg_candidates_per_s1": 0.5,
+      "median_candidates": 0.0,
+      "p90_candidates": 0.0,
+      "p95_candidates": 0.0,
+      "p99_candidates": 4.0,
+      "max_candidates": 1218,
+      "zero_candidate_pct": 97.88,
+      "reduction_ratio_pct": 99.999995,
+      "runtime_sec": 9.99,
+      "peak_rss_mb": 1712.49,
+      "config": {
+        "min_shared_3grams": 8,
+        "max_3gram_doc_freq": 10000
+      }
+    },
+    "Block_E_3gram_T_10": {
+      "num_queries": 25000,
+      "total_gt_links": 86545,
+      "found_gt_links": 320,
+      "overall_recall": 0.37,
+      "s2_recall": 0.37,
+      "s3_recall": 0.37,
+      "country_recall": {
+        "India": 0.35,
+        "US": 0.38
+      },
+      "multiplicity_bin_recall": {
+        "1": 0.37,
+        "2": 0.36,
+        "3-4": 0.38,
+        "5+": 0.37
+      },
+      "total_candidate_pairs": 1750,
+      "avg_candidates_per_s1": 0.07,
+      "median_candidates": 0.0,
+      "p90_candidates": 0.0,
+      "p95_candidates": 0.0,
+      "p99_candidates": 1.0,
+      "max_candidates": 313,
+      "zero_candidate_pct": 99.43,
+      "reduction_ratio_pct": 99.999999,
+      "runtime_sec": 10.28,
+      "peak_rss_mb": 1712.49,
+      "config": {
+        "min_shared_3grams": 10,
+        "max_3gram_doc_freq": 10000
+      }
+    },
+    "Block_E_3gram_min_shared_3": {
+      "status": "COMPUTATIONALLY_INFEASIBLE",
+      "reason": "Exceeded safe host memory limit (> 16 GB RAM) and caused MemoryError. An unconstrained threshold of T=3 produces > 200,000 candidates per query (Jaccard overlap < 10%).",
+      "config": {
+        "min_shared_3grams": 3
+      }
+    }
+  },
+  "cumulative_unions": {
+    "A": {
+      "num_queries": 25000,
+      "total_gt_links": 86570,
+      "found_gt_links": 35909,
+      "overall_recall": 41.48,
+      "s2_recall": 42.23,
+      "s3_recall": 40.79,
+      "country_recall": {
+        "India": 31.35,
+        "US": 48.24
+      },
+      "multiplicity_bin_recall": {
+        "1": 42.15,
+        "2": 41.89,
+        "3-4": 41.12,
+        "5+": 41.75
+      },
+      "total_candidate_pairs": 779772,
+      "avg_candidates_per_s1": 31.19,
+      "median_candidates": 3.0,
+      "p90_candidates": 41.0,
+      "p95_candidates": 156.0,
+      "p99_candidates": 605.0099999999984,
+      "max_candidates": 1468,
+      "zero_candidate_pct": 11.98,
+      "reduction_ratio_pct": 99.999698,
+      "runtime_sec": 0.39,
+      "peak_rss_mb": 567.67,
+      "incremental_recall": 41.48,
+      "included_blocks": [
+        "A"
+      ]
+    },
+    "A+B": {
+      "num_queries": 25000,
+      "total_gt_links": 86570,
+      "found_gt_links": 65898,
+      "overall_recall": 76.12,
+      "s2_recall": 74.82,
+      "s3_recall": 77.34,
+      "country_recall": {
+        "India": 69.94,
+        "US": 80.25
+      },
+      "multiplicity_bin_recall": {
+        "1": 73.78,
+        "2": 75.04,
+        "3-4": 75.94,
+        "5+": 76.66
+      },
+      "total_candidate_pairs": 85869566,
+      "avg_candidates_per_s1": 3434.78,
+      "median_candidates": 1823.0,
+      "p90_candidates": 9283.0,
+      "p95_candidates": 9876.0,
+      "p99_candidates": 17557.11999999998,
+      "max_candidates": 20528,
+      "zero_candidate_pct": 0.6,
+      "reduction_ratio_pct": 99.966718,
+      "runtime_sec": 11.96,
+      "peak_rss_mb": 7812.79,
+      "incremental_recall": 34.64,
+      "included_blocks": [
+        "A",
+        "B"
+      ]
+    },
+    "A+B+C": {
+      "num_queries": 25000,
+      "total_gt_links": 86570,
+      "found_gt_links": 72019,
+      "overall_recall": 83.19,
+      "s2_recall": 81.97,
+      "s3_recall": 84.33,
+      "country_recall": {
+        "India": 74.44,
+        "US": 89.03
+      },
+      "multiplicity_bin_recall": {
+        "1": 80.89,
+        "2": 82.0,
+        "3-4": 83.11,
+        "5+": 83.64
+      },
+      "total_candidate_pairs": 99688962,
+      "avg_candidates_per_s1": 3987.56,
+      "median_candidates": 1910.0,
+      "p90_candidates": 9590.0,
+      "p95_candidates": 11682.349999999995,
+      "p99_candidates": 19346.36999999994,
+      "max_candidates": 43751,
+      "zero_candidate_pct": 0.06,
+      "reduction_ratio_pct": 99.961362,
+      "runtime_sec": 1.63,
+      "peak_rss_mb": 8896.21,
+      "incremental_recall": 7.07,
+      "included_blocks": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "A+B+C+D": {
+      "num_queries": 25000,
+      "total_gt_links": 86570,
+      "found_gt_links": 73373,
+      "overall_recall": 84.76,
+      "s2_recall": 84.71,
+      "s3_recall": 84.8,
+      "country_recall": {
+        "India": 75.01,
+        "US": 91.27
+      },
+      "multiplicity_bin_recall": {
+        "1": 82.3,
+        "2": 83.46,
+        "3-4": 84.76,
+        "5+": 85.14
+      },
+      "total_candidate_pairs": 102466297,
+      "avg_candidates_per_s1": 4098.65,
+      "median_candidates": 2020.0,
+      "p90_candidates": 9609.0,
+      "p95_candidates": 11732.799999999974,
+      "p99_candidates": 19417.0,
+      "max_candidates": 43821,
+      "zero_candidate_pct": 0.01,
+      "reduction_ratio_pct": 99.960285,
+      "runtime_sec": 0.69,
+      "peak_rss_mb": 9131.77,
+      "incremental_recall": 1.57,
+      "included_blocks": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "A+B+C+D+E": {
+      "num_queries": 25000,
+      "total_gt_links": 86570,
+      "found_gt_links": 73421,
+      "overall_recall": 84.81,
+      "s2_recall": 84.76,
+      "s3_recall": 84.85,
+      "country_recall": {
+        "India": 75.06,
+        "US": 91.32
+      },
+      "multiplicity_bin_recall": {
+        "1": 82.37,
+        "2": 83.51,
+        "3-4": 84.81,
+        "5+": 85.2
+      },
+      "total_candidate_pairs": 102481092,
+      "avg_candidates_per_s1": 4099.24,
+      "median_candidates": 2022.0,
+      "p90_candidates": 9609.0,
+      "p95_candidates": 11767.199999999997,
+      "p99_candidates": 19417.0,
+      "max_candidates": 43821,
+      "zero_candidate_pct": 0.01,
+      "reduction_ratio_pct": 99.960279,
+      "runtime_sec": 0.1,
+      "peak_rss_mb": 9132.58,
+      "incremental_recall": 0.05,
+      "included_blocks": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    }
+  },
+  "pairwise_overlap": {
+    "A_vs_B": {
+      "block1": "A",
+      "block2": "B",
+      "shared_candidates": 375515,
+      "jaccard_overlap": 0.0044
+    },
+    "A_vs_C": {
+      "block1": "A",
+      "block2": "C",
+      "shared_candidates": 779772,
+      "jaccard_overlap": 0.0495
+    },
+    "A_vs_D": {
+      "block1": "A",
+      "block2": "D",
+      "shared_candidates": 28461,
+      "jaccard_overlap": 0.0062
+    },
+    "A_vs_E": {
+      "block1": "A",
+      "block2": "E",
+      "shared_candidates": 6373,
+      "jaccard_overlap": 0.0069
+    },
+    "B_vs_C": {
+      "block1": "B",
+      "block2": "C",
+      "shared_candidates": 1534065,
+      "jaccard_overlap": 0.0154
+    },
+    "B_vs_D": {
+      "block1": "B",
+      "block2": "D",
+      "shared_candidates": 828567,
+      "jaccard_overlap": 0.0094
+    },
+    "B_vs_E": {
+      "block1": "B",
+      "block2": "E",
+      "shared_candidates": 131174,
+      "jaccard_overlap": 0.0015
+    },
+    "C_vs_D": {
+      "block1": "C",
+      "block2": "D",
+      "shared_candidates": 303305,
+      "jaccard_overlap": 0.0157
+    },
+    "C_vs_E": {
+      "block1": "C",
+      "block2": "E",
+      "shared_candidates": 17598,
+      "jaccard_overlap": 0.0011
+    },
+    "D_vs_E": {
+      "block1": "D",
+      "block2": "E",
+      "shared_candidates": 11589,
+      "jaccard_overlap": 0.0029
+    }
+  },
+  "script_divergence_diagnostic": {
+    "total_ground_truth_misses": 13149,
+    "misses_with_non_latin_script": 5923,
+    "non_latin_miss_pct": 45.05,
+    "script_divergence_examples": [
+      {
+        "s1_id": "S1-564729135",
+        "s1_name": "Dream Construction Limited",
+        "target_id": "S3-912418512",
+        "target_name": "\u0c21\u0c4d\u0c30\u0c40\u0c2e\u0c4d \u0c15\u0c28\u0c4d\u200c\u0c38\u0c4d\u0c1f\u0c4d\u0c30\u0c15\u0c4d\u0c37\u0c28\u0c4d \u0c32\u0c3f\u0c2e\u0c3f\u0c1f\u0c46\u0c21\u0c4d",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-564729135",
+        "s1_name": "Dream Construction Limited",
+        "target_id": "S2-327309238",
+        "target_name": "\u0c21\u0c4d\u0c30\u0c40\u0c2e\u0c4d \u0c15\u0c28\u0c4d\u200c\u0c38\u0c4d\u0c1f\u0c4d\u0c30\u0c15\u0c4d\u0c37\u0c28\u0c4d \u0c32\u0c3f\u0c2e\u0c3f\u0c1f\u0c46\u0c21\u0c4d",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-597762257",
+        "s1_name": "Green Logistics Private Limited",
+        "target_id": "S2-750318376",
+        "target_name": "\u0917\u094d\u0930\u0940\u0928 \u0932\u0949\u091c\u093f\u0938\u094d\u091f\u093f\u0915\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-597762257",
+        "s1_name": "Green Logistics Private Limited",
+        "target_id": "S2-152865025",
+        "target_name": "\u0917\u094d\u0930\u0940\u0928 \u0932\u0949\u091c\u093f\u0938\u094d\u091f\u093f\u0915\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-597762257",
+        "s1_name": "Green Logistics Private Limited",
+        "target_id": "S2-535895394",
+        "target_name": "\u0917\u094d\u0930\u0940\u0928 \u0932\u0949\u091c\u093f\u0938\u094d\u091f\u093f\u0915\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-597762257",
+        "s1_name": "Green Logistics Private Limited",
+        "target_id": "S3-426660831",
+        "target_name": "\u0917\u094d\u0930\u0940\u0928 \u0932\u0949\u091c\u093f\u0938\u094d\u091f\u093f\u0915\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-277072715",
+        "s1_name": "Shiva Management Private Limited",
+        "target_id": "S2-276736886",
+        "target_name": "\u0c36\u0c3f\u0c35 \u0c2e\u0c47\u0c28\u0c47\u0c1c\u0c4d\u200c\u0c2e\u0c46\u0c02\u0c1f\u0c4d \u0c2a\u0c4d\u0c30\u0c48\u0c35\u0c47\u0c1f\u0c4d \u0c32\u0c3f\u0c2e\u0c3f\u0c1f\u0c46\u0c21\u0c4d",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-666876590",
+        "s1_name": "Ss Systems Limited",
+        "target_id": "S2-975207252",
+        "target_name": "\u090f\u0938\u090f\u0938 \u0938\u093f\u0938\u094d\u091f\u092e\u094d\u0938 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-666876590",
+        "s1_name": "Ss Systems Limited",
+        "target_id": "S2-185860935",
+        "target_name": "\u090f\u0938\u090f\u0938 \u0938\u093f\u0938\u094d\u091f\u092e\u094d\u0938 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-216181354",
+        "s1_name": "United Consultants Private Limited",
+        "target_id": "S3-685337179",
+        "target_name": "\u092f\u0942\u0928\u093e\u0907\u091f\u0947\u0921 \u0915\u0902\u0938\u0932\u094d\u091f\u0947\u0902\u091f\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "country": "India"
+      }
+    ]
+  }
+}

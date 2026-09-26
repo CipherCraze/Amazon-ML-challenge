@@ -1,0 +1,1042 @@
+{
+  "execution_summary": {
+    "total_runtime_sec": 311.56,
+    "total_queries": 25000,
+    "total_union_candidates": 102481092,
+    "total_positives_in_union": 73421,
+    "total_negatives_in_union": 102407671,
+    "class_prevalence_pct": 0.0716,
+    "class_imbalance_ratio": "1:1394.8",
+    "evaluated_sample_size": 323421,
+    "evaluated_positives": 73421,
+    "evaluated_negatives": 250000
+  },
+  "feature_ranking_by_correlation": [
+    [
+      "addr_char_similarity",
+      0.8943
+    ],
+    [
+      "addr_token_overlap",
+      0.8804
+    ],
+    [
+      "name_char_3gram_similarity",
+      0.8048
+    ],
+    [
+      "name_token_overlap",
+      0.7467
+    ],
+    [
+      "num_blocking_signals",
+      0.7248
+    ],
+    [
+      "name_edit_similarity",
+      0.7122
+    ],
+    [
+      "name_tfidf_cosine",
+      0.685
+    ],
+    [
+      "name_exact_match",
+      0.6296
+    ],
+    [
+      "block_A_match",
+      0.6296
+    ],
+    [
+      "addr_city_match",
+      0.6193
+    ],
+    [
+      "name_jaro_winkler",
+      0.6074
+    ],
+    [
+      "name_compressed_core_match",
+      0.5244
+    ],
+    [
+      "block_C_match",
+      0.5244
+    ],
+    [
+      "addr_region_match",
+      0.4912
+    ],
+    [
+      "block_D_match",
+      0.391
+    ],
+    [
+      "name_len_ratio",
+      0.3623
+    ],
+    [
+      "addr_exact_match",
+      0.2525
+    ],
+    [
+      "block_E_match",
+      0.2177
+    ],
+    [
+      "addr_postal_match",
+      0.198
+    ],
+    [
+      "is_target_non_latin",
+      -0.0316
+    ],
+    [
+      "script_divergence",
+      -0.0316
+    ],
+    [
+      "addr_missing_indicator",
+      0.022
+    ],
+    [
+      "source_is_s2",
+      0.0102
+    ],
+    [
+      "source_is_s3",
+      -0.0102
+    ],
+    [
+      "block_B_match",
+      -0.0064
+    ],
+    [
+      "country_equality",
+      0.0
+    ]
+  ],
+  "feature_distributions": {
+    "name_exact_match": {
+      "pos": {
+        "mean": 0.4891,
+        "std": 0.4999,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.007,
+        "std": 0.0834,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.4821
+    },
+    "name_token_overlap": {
+      "pos": {
+        "mean": 0.7944,
+        "std": 0.2958,
+        "median": 1.0,
+        "p25": 0.6,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.2863,
+        "std": 0.1443,
+        "median": 0.25,
+        "p25": 0.2,
+        "p75": 0.3333,
+        "p95": 0.5
+      },
+      "separation_abs_diff": 0.5082
+    },
+    "name_tfidf_cosine": {
+      "pos": {
+        "mean": 0.846,
+        "std": 0.2532,
+        "median": 1.0,
+        "p25": 0.75,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.4355,
+        "std": 0.1564,
+        "median": 0.4082,
+        "p25": 0.3333,
+        "p75": 0.5,
+        "p95": 0.7071
+      },
+      "separation_abs_diff": 0.4105
+    },
+    "name_jaro_winkler": {
+      "pos": {
+        "mean": 0.9478,
+        "std": 0.0862,
+        "median": 0.9882,
+        "p25": 0.9273,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.7212,
+        "std": 0.1332,
+        "median": 0.7175,
+        "p25": 0.6111,
+        "p75": 0.8415,
+        "p95": 0.9038
+      },
+      "separation_abs_diff": 0.2265
+    },
+    "name_edit_similarity": {
+      "pos": {
+        "mean": 0.8424,
+        "std": 0.2017,
+        "median": 0.9565,
+        "p25": 0.7027,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.424,
+        "std": 0.1633,
+        "median": 0.4138,
+        "p25": 0.3077,
+        "p75": 0.5294,
+        "p95": 0.7
+      },
+      "separation_abs_diff": 0.4184
+    },
+    "name_compressed_core_match": {
+      "pos": {
+        "mean": 0.7177,
+        "std": 0.4501,
+        "median": 1.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.1543,
+        "std": 0.3612,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.5634
+    },
+    "name_char_3gram_similarity": {
+      "pos": {
+        "mean": 0.7993,
+        "std": 0.2512,
+        "median": 1.0,
+        "p25": 0.6111,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.2245,
+        "std": 0.1492,
+        "median": 0.1935,
+        "p25": 0.122,
+        "p75": 0.2927,
+        "p95": 0.5
+      },
+      "separation_abs_diff": 0.5747
+    },
+    "name_len_ratio": {
+      "pos": {
+        "mean": 0.8952,
+        "std": 0.1582,
+        "median": 1.0,
+        "p25": 0.8125,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.7338,
+        "std": 0.1783,
+        "median": 0.75,
+        "p25": 0.6087,
+        "p75": 0.881,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.1614
+    },
+    "addr_exact_match": {
+      "pos": {
+        "mean": 0.0809,
+        "std": 0.2727,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.0809
+    },
+    "addr_token_overlap": {
+      "pos": {
+        "mean": 0.5951,
+        "std": 0.2625,
+        "median": 0.625,
+        "p25": 0.4286,
+        "p75": 0.7778,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.0187,
+        "std": 0.0407,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.1
+      },
+      "separation_abs_diff": 0.5765
+    },
+    "addr_char_similarity": {
+      "pos": {
+        "mean": 0.6142,
+        "std": 0.2533,
+        "median": 0.6471,
+        "p25": 0.4694,
+        "p75": 0.7931,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.0188,
+        "std": 0.036,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0222,
+        "p95": 0.0889
+      },
+      "separation_abs_diff": 0.5954
+    },
+    "addr_postal_match": {
+      "pos": {
+        "mean": 0.0501,
+        "std": 0.2183,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.0501
+    },
+    "addr_region_match": {
+      "pos": {
+        "mean": 0.4887,
+        "std": 0.4999,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.061,
+        "std": 0.2393,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.4277
+    },
+    "addr_city_match": {
+      "pos": {
+        "mean": 0.9527,
+        "std": 0.2122,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.2303,
+        "std": 0.421,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.7225
+    },
+    "addr_missing_indicator": {
+      "pos": {
+        "mean": 0.0471,
+        "std": 0.2118,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "neg": {
+        "mean": 0.0369,
+        "std": 0.1885,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.0102
+    },
+    "country_equality": {
+      "pos": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.0
+    },
+    "source_is_s2": {
+      "pos": {
+        "mean": 0.4819,
+        "std": 0.4997,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.4698,
+        "std": 0.4991,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.0121
+    },
+    "source_is_s3": {
+      "pos": {
+        "mean": 0.5181,
+        "std": 0.4997,
+        "median": 1.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.5302,
+        "std": 0.4991,
+        "median": 1.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.0121
+    },
+    "block_A_match": {
+      "pos": {
+        "mean": 0.4891,
+        "std": 0.4999,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.007,
+        "std": 0.0834,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.4821
+    },
+    "block_B_match": {
+      "pos": {
+        "mean": 0.8272,
+        "std": 0.3781,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.8329,
+        "std": 0.373,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.0057
+    },
+    "block_C_match": {
+      "pos": {
+        "mean": 0.7177,
+        "std": 0.4501,
+        "median": 1.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.1543,
+        "std": 0.3612,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 0.5634
+    },
+    "block_D_match": {
+      "pos": {
+        "mean": 0.3194,
+        "std": 0.4662,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.0375,
+        "std": 0.19,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.2819
+    },
+    "block_E_match": {
+      "pos": {
+        "mean": 0.0677,
+        "std": 0.2512,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 1.0
+      },
+      "neg": {
+        "mean": 0.0015,
+        "std": 0.0383,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.0662
+    },
+    "num_blocking_signals": {
+      "pos": {
+        "mean": 2.421,
+        "std": 1.0996,
+        "median": 3.0,
+        "p25": 1.0,
+        "p75": 3.0,
+        "p95": 4.0
+      },
+      "neg": {
+        "mean": 1.0332,
+        "std": 0.1997,
+        "median": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p95": 1.0
+      },
+      "separation_abs_diff": 1.3878
+    },
+    "is_target_non_latin": {
+      "pos": {
+        "mean": 0.0027,
+        "std": 0.0516,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "neg": {
+        "mean": 0.0093,
+        "std": 0.0959,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.0066
+    },
+    "script_divergence": {
+      "pos": {
+        "mean": 0.0027,
+        "std": 0.0516,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "neg": {
+        "mean": 0.0093,
+        "std": 0.0959,
+        "median": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p95": 0.0
+      },
+      "separation_abs_diff": 0.0066
+    }
+  },
+  "pairwise_correlation_top10": {
+    "addr_char_similarity": {
+      "addr_char_similarity": 1.0,
+      "addr_token_overlap": 0.9754,
+      "name_char_3gram_similarity": 0.7069,
+      "name_token_overlap": 0.656,
+      "num_blocking_signals": 0.6715,
+      "name_edit_similarity": 0.6235,
+      "name_tfidf_cosine": 0.6049,
+      "name_exact_match": 0.5449,
+      "block_A_match": 0.5449,
+      "addr_city_match": 0.6501
+    },
+    "addr_token_overlap": {
+      "addr_char_similarity": 0.9754,
+      "addr_token_overlap": 1.0,
+      "name_char_3gram_similarity": 0.6895,
+      "name_token_overlap": 0.6425,
+      "num_blocking_signals": 0.66,
+      "name_edit_similarity": 0.6074,
+      "name_tfidf_cosine": 0.5936,
+      "name_exact_match": 0.5288,
+      "block_A_match": 0.5288,
+      "addr_city_match": 0.6757
+    },
+    "name_char_3gram_similarity": {
+      "addr_char_similarity": 0.7069,
+      "addr_token_overlap": 0.6895,
+      "name_char_3gram_similarity": 1.0,
+      "name_token_overlap": 0.8215,
+      "num_blocking_signals": 0.7874,
+      "name_edit_similarity": 0.9061,
+      "name_tfidf_cosine": 0.7525,
+      "name_exact_match": 0.7827,
+      "block_A_match": 0.7827,
+      "addr_city_match": 0.4707
+    },
+    "name_token_overlap": {
+      "addr_char_similarity": 0.656,
+      "addr_token_overlap": 0.6425,
+      "name_char_3gram_similarity": 0.8215,
+      "name_token_overlap": 1.0,
+      "num_blocking_signals": 0.7834,
+      "name_edit_similarity": 0.7528,
+      "name_tfidf_cosine": 0.9766,
+      "name_exact_match": 0.7621,
+      "block_A_match": 0.7621,
+      "addr_city_match": 0.466
+    },
+    "num_blocking_signals": {
+      "addr_char_similarity": 0.6715,
+      "addr_token_overlap": 0.66,
+      "name_char_3gram_similarity": 0.7874,
+      "name_token_overlap": 0.7834,
+      "num_blocking_signals": 1.0,
+      "name_edit_similarity": 0.7144,
+      "name_tfidf_cosine": 0.7137,
+      "name_exact_match": 0.8632,
+      "block_A_match": 0.8632,
+      "addr_city_match": 0.4678
+    },
+    "name_edit_similarity": {
+      "addr_char_similarity": 0.6235,
+      "addr_token_overlap": 0.6074,
+      "name_char_3gram_similarity": 0.9061,
+      "name_token_overlap": 0.7528,
+      "num_blocking_signals": 0.7144,
+      "name_edit_similarity": 1.0,
+      "name_tfidf_cosine": 0.7105,
+      "name_exact_match": 0.7096,
+      "block_A_match": 0.7096,
+      "addr_city_match": 0.4281
+    },
+    "name_tfidf_cosine": {
+      "addr_char_similarity": 0.6049,
+      "addr_token_overlap": 0.5936,
+      "name_char_3gram_similarity": 0.7525,
+      "name_token_overlap": 0.9766,
+      "num_blocking_signals": 0.7137,
+      "name_edit_similarity": 0.7105,
+      "name_tfidf_cosine": 1.0,
+      "name_exact_match": 0.6815,
+      "block_A_match": 0.6815,
+      "addr_city_match": 0.4367
+    },
+    "name_exact_match": {
+      "addr_char_similarity": 0.5449,
+      "addr_token_overlap": 0.5288,
+      "name_char_3gram_similarity": 0.7827,
+      "name_token_overlap": 0.7621,
+      "num_blocking_signals": 0.8632,
+      "name_edit_similarity": 0.7096,
+      "name_tfidf_cosine": 0.6815,
+      "name_exact_match": 1.0,
+      "block_A_match": 1.0,
+      "addr_city_match": 0.384
+    },
+    "block_A_match": {
+      "addr_char_similarity": 0.5449,
+      "addr_token_overlap": 0.5288,
+      "name_char_3gram_similarity": 0.7827,
+      "name_token_overlap": 0.7621,
+      "num_blocking_signals": 0.8632,
+      "name_edit_similarity": 0.7096,
+      "name_tfidf_cosine": 0.6815,
+      "name_exact_match": 1.0,
+      "block_A_match": 1.0,
+      "addr_city_match": 0.384
+    },
+    "addr_city_match": {
+      "addr_char_similarity": 0.6501,
+      "addr_token_overlap": 0.6757,
+      "name_char_3gram_similarity": 0.4707,
+      "name_token_overlap": 0.466,
+      "num_blocking_signals": 0.4678,
+      "name_edit_similarity": 0.4281,
+      "name_tfidf_cosine": 0.4367,
+      "name_exact_match": 0.384,
+      "block_A_match": 0.384,
+      "addr_city_match": 1.0
+    }
+  },
+  "individual_rules_precision_recall": {
+    "Exact Name Match (name_exact == 1)": {
+      "precision": 4.76,
+      "recall": 48.91,
+      "f0_5": 5.81,
+      "total_predicted": 753991
+    },
+    "Core Match (name_core == 1)": {
+      "precision": 0.33,
+      "recall": 71.77,
+      "f0_5": 0.41,
+      "total_predicted": 15854609
+    },
+    "Jaro-Winkler >= 0.85": {
+      "precision": 0.29,
+      "recall": 89.98,
+      "f0_5": 0.37,
+      "total_predicted": 22501128
+    },
+    "Jaro-Winkler >= 0.90": {
+      "precision": 1.03,
+      "recall": 83.72,
+      "f0_5": 1.28,
+      "total_predicted": 5961379
+    },
+    "Jaro-Winkler >= 0.95": {
+      "precision": 4.0,
+      "recall": 64.6,
+      "f0_5": 4.93,
+      "total_predicted": 1185383
+    },
+    "Token Overlap >= 0.50": {
+      "precision": 0.53,
+      "recall": 86.01,
+      "f0_5": 0.66,
+      "total_predicted": 11893283
+    },
+    "Token Overlap >= 0.75": {
+      "precision": 2.66,
+      "recall": 65.19,
+      "f0_5": 3.29,
+      "total_predicted": 1798627
+    },
+    "TF-IDF Cosine >= 0.60": {
+      "precision": 0.5,
+      "recall": 85.7,
+      "f0_5": 0.62,
+      "total_predicted": 12632440
+    },
+    "Edit Similarity >= 0.80": {
+      "precision": 2.95,
+      "recall": 66.35,
+      "f0_5": 3.64,
+      "total_predicted": 1652421
+    },
+    "Address Postal Match == 1": {
+      "precision": 100.0,
+      "recall": 5.01,
+      "f0_5": 20.89,
+      "total_predicted": 3682
+    },
+    "Address Token Overlap >= 0.40": {
+      "precision": 67.82,
+      "recall": 78.79,
+      "f0_5": 69.76,
+      "total_predicted": 85291
+    },
+    "Block A Match == 1": {
+      "precision": 4.76,
+      "recall": 48.91,
+      "f0_5": 5.81,
+      "total_predicted": 753991
+    },
+    "Num Blocking Signals >= 2": {
+      "precision": 1.73,
+      "recall": 72.27,
+      "f0_5": 2.15,
+      "total_predicted": 3068761
+    },
+    "Num Blocking Signals >= 3": {
+      "precision": 9.06,
+      "recall": 50.63,
+      "f0_5": 10.84,
+      "total_predicted": 410346
+    }
+  },
+  "combination_rules_precision_recall": {
+    "Exact Name OR (JW >= 0.90 AND Signals >= 2)": {
+      "precision": 3.51,
+      "recall": 68.34,
+      "f0_5": 4.34,
+      "total_predicted": 1428174
+    },
+    "Exact Name OR (JW >= 0.85 AND Addr_Tokens >= 0.3)": {
+      "precision": 7.65,
+      "recall": 84.72,
+      "f0_5": 9.35,
+      "total_predicted": 813057
+    },
+    "Core Match AND Postal Match": {
+      "precision": 100.0,
+      "recall": 3.6,
+      "f0_5": 15.73,
+      "total_predicted": 2642
+    },
+    "(JW >= 0.85 OR Token_Jacc >= 0.6) AND (Postal == 1 OR Addr_Tokens >= 0.3)": {
+      "precision": 62.34,
+      "recall": 82.2,
+      "f0_5": 65.51,
+      "total_predicted": 96810
+    },
+    "High-Precision Leaderboard Filter: (JW >= 0.92 AND Signals >= 2) OR (Exact_Name == 1 AND Addr_Tokens >= 0.2)": {
+      "precision": 4.23,
+      "recall": 65.66,
+      "f0_5": 5.2,
+      "total_predicted": 1140695
+    },
+    "Liberal Recall Safety Filter (Candidate Reduction Pre-Classifier): (JW >= 0.70 OR Token_Jacc >= 0.30 OR Postal == 1)": {
+      "precision": 0.12,
+      "recall": 99.73,
+      "f0_5": 0.15,
+      "total_predicted": 62365349
+    }
+  },
+  "country_slice_analysis": {
+    "US": {
+      "eval_pairs": 204669,
+      "positives": 47404,
+      "correlations": {
+        "name_exact_match": 0.6498,
+        "name_jaro_winkler": 0.6241,
+        "name_token_overlap": 0.744,
+        "addr_postal_match": 0.2465,
+        "addr_token_overlap": 0.8794,
+        "num_blocking_signals": 0.7398
+      },
+      "rule_performance": {
+        "Exact Name Match": [
+          3.89,
+          52.82,
+          4.78
+        ],
+        "Jaro-Winkler >= 0.85": [
+          0.28,
+          93.03,
+          0.35
+        ],
+        "Address Postal Match": [
+          100.0,
+          7.77,
+          29.63
+        ],
+        "Num Signals >= 2": [
+          1.82,
+          74.8,
+          2.27
+        ],
+        "Composite High-Precision": [
+          3.07,
+          71.49,
+          3.79
+        ]
+      }
+    },
+    "India": {
+      "eval_pairs": 118752,
+      "positives": 26017,
+      "correlations": {
+        "name_exact_match": 0.5924,
+        "name_jaro_winkler": 0.5798,
+        "name_token_overlap": 0.7541,
+        "addr_postal_match": 0.0,
+        "addr_token_overlap": 0.8929,
+        "num_blocking_signals": 0.6978
+      },
+      "rule_performance": {
+        "Exact Name Match": [
+          12.64,
+          41.77,
+          14.69
+        ],
+        "Jaro-Winkler >= 0.85": [
+          0.34,
+          84.43,
+          0.43
+        ],
+        "Address Postal Match": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Num Signals >= 2": [
+          1.58,
+          67.65,
+          1.97
+        ],
+        "Composite High-Precision": [
+          5.58,
+          62.61,
+          6.82
+        ]
+      }
+    }
+  },
+  "non_latin_miss_analysis": {
+    "total_misses": 5923,
+    "script_distribution": {
+      "Devanagari": 3394,
+      "Kannada": 486,
+      "Telugu": 478,
+      "Tamil": 398,
+      "Gujarati": 366,
+      "Bengali": 342,
+      "Malayalam": 238
+    },
+    "address_preservation": {
+      "target_address_in_latin_pct": 75.0,
+      "address_token_overlap_ge_2_pct": 99.7,
+      "can_be_recovered_by_address_tokens": true,
+      "recommendation": "In India, 99.7% of native non-Latin name misses share >= 2 address tokens with S1. Pure address token intersection or high-order n-gram co-occurrence without requiring Latin business name match recovers up to 5,907 out of 5,923 misses (+6.82% overall recall in India)."
+    }
+  },
+  "candidate_reduction_curve": [
+    {
+      "threshold": 0.05,
+      "recall_retained_pct": 100.0,
+      "overall_recall_pct": 84.81,
+      "candidate_reduction_pct": 0.0,
+      "estimated_remaining_candidates": 102481092,
+      "avg_candidates_per_s1": 4099.2
+    },
+    {
+      "threshold": 0.1,
+      "recall_retained_pct": 100.0,
+      "overall_recall_pct": 84.81,
+      "candidate_reduction_pct": 0.0,
+      "estimated_remaining_candidates": 102480682,
+      "avg_candidates_per_s1": 4099.2
+    },
+    {
+      "threshold": 0.15,
+      "recall_retained_pct": 100.0,
+      "overall_recall_pct": 84.81,
+      "candidate_reduction_pct": 0.0,
+      "estimated_remaining_candidates": 102476176,
+      "avg_candidates_per_s1": 4099.0
+    },
+    {
+      "threshold": 0.2,
+      "recall_retained_pct": 100.0,
+      "overall_recall_pct": 84.81,
+      "candidate_reduction_pct": 0.02,
+      "estimated_remaining_candidates": 102461839,
+      "avg_candidates_per_s1": 4098.5
+    },
+    {
+      "threshold": 0.25,
+      "recall_retained_pct": 100.0,
+      "overall_recall_pct": 84.81,
+      "candidate_reduction_pct": 0.45,
+      "estimated_remaining_candidates": 102018206,
+      "avg_candidates_per_s1": 4080.7
+    },
+    {
+      "threshold": 0.3,
+      "recall_retained_pct": 99.98,
+      "overall_recall_pct": 84.79,
+      "candidate_reduction_pct": 6.63,
+      "estimated_remaining_candidates": 95689400,
+      "avg_candidates_per_s1": 3827.6
+    },
+    {
+      "threshold": 0.35,
+      "recall_retained_pct": 99.96,
+      "overall_recall_pct": 84.78,
+      "candidate_reduction_pct": 29.27,
+      "estimated_remaining_candidates": 72480937,
+      "avg_candidates_per_s1": 2899.2
+    },
+    {
+      "threshold": 0.4,
+      "recall_retained_pct": 99.87,
+      "overall_recall_pct": 84.7,
+      "candidate_reduction_pct": 49.93,
+      "estimated_remaining_candidates": 51308702,
+      "avg_candidates_per_s1": 2052.3
+    },
+    {
+      "threshold": 0.5,
+      "recall_retained_pct": 96.57,
+      "overall_recall_pct": 81.9,
+      "candidate_reduction_pct": 87.58,
+      "estimated_remaining_candidates": 12729721,
+      "avg_candidates_per_s1": 509.2
+    },
+    {
+      "threshold": 0.6,
+      "recall_retained_pct": 86.94,
+      "overall_recall_pct": 73.73,
+      "candidate_reduction_pct": 97.68,
+      "estimated_remaining_candidates": 2379881,
+      "avg_candidates_per_s1": 95.2
+    }
+  ]
+}

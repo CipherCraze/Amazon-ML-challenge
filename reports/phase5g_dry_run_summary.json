@@ -1,0 +1,80 @@
+{
+  "execution_date": "September 2026",
+  "region_cap": 100,
+  "total_queries_tested": 6000,
+  "total_candidate_pairs": 2789909,
+  "overall_mean_candidates_per_s1": 464.98,
+  "total_matches_predicted": 54493,
+  "peak_rss_mb": 8859.2,
+  "feature_gen_time_sec": 144.08,
+  "inference_time_sec": 5.93,
+  "total_runtime_sec": 1181.82,
+  "country_statistics": {
+    "France": {
+      "queries": 2000,
+      "targets": 1434993,
+      "candidate_pairs": 1614997,
+      "mean_candidates_per_s1": 807.5,
+      "median_candidates_per_s1": 704.5,
+      "p90_candidates_per_s1": 1605.1000000000001,
+      "p95_candidates_per_s1": 1821.0,
+      "p99_candidates_per_s1": 2234.01,
+      "max_candidates_per_s1": 3077,
+      "empty_candidate_queries": 0,
+      "predicted_matches": 37541,
+      "mean_matches_per_s1": 18.77,
+      "block_breakdown": {
+        "Block_A": 20.91,
+        "Block_C": 44.74,
+        "Block_D": 9.29,
+        "Block_G6": 711.34,
+        "Block_BE_Pool": 1753.91,
+        "Refined_BE_Top50": 38.7
+      }
+    },
+    "India": {
+      "queries": 2000,
+      "targets": 4717565,
+      "candidate_pairs": 847206,
+      "mean_candidates_per_s1": 423.6,
+      "median_candidates_per_s1": 330.0,
+      "p90_candidates_per_s1": 816.0,
+      "p95_candidates_per_s1": 1109.1499999999999,
+      "p99_candidates_per_s1": 1960.3599999999997,
+      "max_candidates_per_s1": 5813,
+      "empty_candidate_queries": 0,
+      "predicted_matches": 9477,
+      "mean_matches_per_s1": 4.739,
+      "block_breakdown": {
+        "Block_A": 10.26,
+        "Block_C": 50.61,
+        "Block_D": 9.68,
+        "Block_G6": 336.85,
+        "Block_BE_Pool": 1346.89,
+        "Refined_BE_Top50": 28.98
+      }
+    },
+    "US": {
+      "queries": 2000,
+      "targets": 3817031,
+      "candidate_pairs": 327706,
+      "mean_candidates_per_s1": 163.85,
+      "median_candidates_per_s1": 102.0,
+      "p90_candidates_per_s1": 335.0,
+      "p95_candidates_per_s1": 494.0,
+      "p99_candidates_per_s1": 870.01,
+      "max_candidates_per_s1": 2695,
+      "empty_candidate_queries": 0,
+      "predicted_matches": 7475,
+      "mean_matches_per_s1": 3.737,
+      "block_breakdown": {
+        "Block_A": 28.49,
+        "Block_C": 54.26,
+        "Block_D": 12.88,
+        "Block_G6": 53.75,
+        "Block_BE_Pool": 3667.05,
+        "Refined_BE_Top50": 42.68
+      }
+    }
+  }
+}

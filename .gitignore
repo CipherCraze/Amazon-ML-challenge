@@ -1,0 +1,17 @@
+# Data & dataset files
+student_resource/dataset/
+*.tsv
+*.parquet
+*.npz
+*.pkl
+*.tfevents*
+output/
+catboost_info/
+submission/
+
+# OS and temporary files
+__MACOSX/
+.DS_Store
+*.pyc
+__pycache__/
+.ipynb_checkpoints/

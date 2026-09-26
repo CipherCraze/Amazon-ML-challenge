@@ -1,0 +1,634 @@
+{
+  "name_legal_suffix": [
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "m_id": "S2-743505751",
+      "m_name": "Maure Williams Colombier",
+      "diff": [
+        "inc"
+      ]
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "m_id": "S3-775321672",
+      "m_name": "Dréxkor",
+      "diff": [
+        "inc"
+      ]
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "m_id": "S3-11291185",
+      "m_name": "maurewilliamscolombier.com",
+      "diff": [
+        "inc"
+      ]
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-343815751",
+      "s1_name": "Dahlia Power Reliable Scientific LLC",
+      "m_id": "S2-790675320",
+      "m_name": "Dahlia Power Reliable",
+      "diff": [
+        "llc"
+      ]
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-343815751",
+      "s1_name": "Dahlia Power Reliable Scientific LLC",
+      "m_id": "S2-479876582",
+      "m_name": "Dahlia Power Reliable Scientific",
+      "diff": [
+        "llc"
+      ]
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "m_id": "S2-153058913",
+      "m_name": "एसएस फूड प्राइवेट लिमिटेड",
+      "diff": [
+        "private",
+        "limited"
+      ]
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "m_id": "S2-24659151",
+      "m_name": "एसएस फूड प्राइवेट लिमिटेड",
+      "diff": [
+        "private",
+        "limited"
+      ]
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "m_id": "S3-679606215",
+      "m_name": "एसएस फूड प्राइवेट लिमिटेड",
+      "diff": [
+        "private",
+        "limited"
+      ]
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "m_id": "S3-449308785",
+      "m_name": "Payne Enterprises  LLC",
+      "diff": [
+        "llc"
+      ]
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-18727616",
+      "s1_name": "Lumay Boral",
+      "m_id": "S2-755677256",
+      "m_name": "Lumay Boral Inc.",
+      "diff": [
+        "inc"
+      ]
+    }
+  ],
+  "name_abbreviation": [],
+  "name_typo_or_edit": [
+    {
+      "country": "US",
+      "s1_id": "S1-343815751",
+      "s1_name": "Dahlia Power Reliable Scientific LLC",
+      "m_id": "S3-878454467",
+      "m_name": "Dahlia Ponr Reliable Scientific LLC"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "m_id": "S2-553508714",
+      "m_name": "Payne Enterpires"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-29845983",
+      "s1_name": "Hendricks and Flowers Inc",
+      "m_id": "S2-648035184",
+      "m_name": "Hendricks and  Flowers Inc"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-730934468",
+      "s1_name": "Orellana Investments LLC",
+      "m_id": "S3-352439310",
+      "m_name": "LLC Orellana Invsmbens"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-546142636",
+      "s1_name": "Crystal Staffing Solutions LLC",
+      "m_id": "S2-392804085",
+      "m_name": "LLC Crystal Sttfrifng Solutions"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-145361722",
+      "s1_name": "Dick Regional Armada Corp",
+      "m_id": "S3-96572514",
+      "m_name": "[Corp] Dick Regional Armada"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-503957000",
+      "s1_name": "AP Hospitality Inc",
+      "m_id": "S2-353308450",
+      "m_name": "AP  Inc Hospitality"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-503957000",
+      "s1_name": "AP Hospitality Inc",
+      "m_id": "S3-858763214",
+      "m_name": "[Inc] AP Hospitality"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-727602285",
+      "s1_name": "Swastik Om Solutions LLP",
+      "m_id": "S2-138660620",
+      "m_name": "[LLP] Swastik Om Solutions"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-727602285",
+      "s1_name": "Swastik Om Solutions LLP",
+      "m_id": "S3-204655096",
+      "m_name": "Swastik Om LLP Service"
+    }
+  ],
+  "name_script_or_transliteration": [
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "m_id": "S3-775321672",
+      "m_name": "Dréxkor"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-55344266",
+      "s1_name": "Raj Investments LLP",
+      "m_id": "S2-249013014",
+      "m_name": "ராஜ் இன்வெஸ்ட்மெண்ட்ஸ் எல்எல்பி"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-55344266",
+      "s1_name": "Raj Investments LLP",
+      "m_id": "S3-478195123",
+      "m_name": "Raj Investments எல்எல்பி"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-55344266",
+      "s1_name": "Raj Investments LLP",
+      "m_id": "S3-384364074",
+      "m_name": "ராஜ் இன்வெஸ்ட்மெண்ட்ஸ் எல்எல்பி"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "m_id": "S2-153058913",
+      "m_name": "एसएस फूड प्राइवेट लिमिटेड"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "m_id": "S2-24659151",
+      "m_name": "एसएस फूड प्राइवेट लिमिटेड"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "m_id": "S3-679606215",
+      "m_name": "एसएस फूड प्राइवेट लिमिटेड"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "m_id": "S2-478959098",
+      "m_name": "Payne Énterprises"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "m_id": "S3-928796641",
+      "m_name": "Payne Énterprises"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-18727616",
+      "s1_name": "Lumay Boral",
+      "m_id": "S3-187831601",
+      "m_name": "Lumay Bóral"
+    }
+  ],
+  "name_domain_or_clean": [
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "m_id": "S3-11291185",
+      "m_name": "maurewilliamscolombier.com"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-840162906",
+      "s1_name": "Summit Health LLC",
+      "m_id": "S3-799520471",
+      "m_name": "summithealth.com"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-567308588",
+      "s1_name": "Zander Blue Co",
+      "m_id": "S2-191200521",
+      "m_name": "zblue.com"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-567308588",
+      "s1_name": "Zander Blue Co",
+      "m_id": "S3-21806256",
+      "m_name": "zanderblue.com"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-292935703",
+      "s1_name": "Cozy Grill",
+      "m_id": "S2-195749344",
+      "m_name": "gcozy.com"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-525304403",
+      "s1_name": "True Factory Ltd",
+      "m_id": "S2-293401164",
+      "m_name": "truefactory.com"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-72310418",
+      "s1_name": "Burger Solution Limited",
+      "m_id": "S3-731160199",
+      "m_name": "Burgersolution.Com"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-9962387",
+      "s1_name": "Systel Buildstructure (India) Private Limited",
+      "m_id": "S3-160760047",
+      "m_name": "systelbuildstructureindia.com"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-225984658",
+      "s1_name": "Alaine's Fitness",
+      "m_id": "S2-355430647",
+      "m_name": "alainesfitness.com"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-686913759",
+      "s1_name": "Behavioral Health Clinic",
+      "m_id": "S2-584238851",
+      "m_name": "BEHAVIORALHEALTHCLINIC.COM"
+    }
+  ],
+  "name_word_reordering": [
+    {
+      "country": "US",
+      "s1_id": "S1-29845983",
+      "s1_name": "Hendricks and Flowers Inc",
+      "m_id": "S2-648035184",
+      "m_name": "Hendricks and  Flowers Inc"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-29845983",
+      "s1_name": "Hendricks and Flowers Inc",
+      "m_id": "S3-588502663",
+      "m_name": "Hendricks and Inc Flowers"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-730934468",
+      "s1_name": "Orellana Investments LLC",
+      "m_id": "S2-356983532",
+      "m_name": "Orellana Investments Investments Llc"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-546142636",
+      "s1_name": "Crystal Staffing Solutions LLC",
+      "m_id": "S3-200008747",
+      "m_name": "Llc Crystal Staffing Solutions"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-274126313",
+      "s1_name": "Obsidian, LLC",
+      "m_id": "S2-736616474",
+      "m_name": "Obsidian,-LLC"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-274126313",
+      "s1_name": "Obsidian, LLC",
+      "m_id": "S3-461175723",
+      "m_name": "Obsidian, [[LLC]]"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-145361722",
+      "s1_name": "Dick Regional Armada Corp",
+      "m_id": "S3-96572514",
+      "m_name": "[Corp] Dick Regional Armada"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-503957000",
+      "s1_name": "AP Hospitality Inc",
+      "m_id": "S2-353308450",
+      "m_name": "AP  Inc Hospitality"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-503957000",
+      "s1_name": "AP Hospitality Inc",
+      "m_id": "S3-858763214",
+      "m_name": "[Inc] AP Hospitality"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-727602285",
+      "s1_name": "Swastik Om Solutions LLP",
+      "m_id": "S2-138660620",
+      "m_name": "[LLP] Swastik Om Solutions"
+    }
+  ],
+  "addr_street_abbrev": [
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+      "m_id": "S3-11291185",
+      "m_addr": "Wayne Ave, Ticonderoga Townshiip, New York"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-102811957",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "m_id": "S2-478959098",
+      "m_addr": "3315 FREMONT ST, PEORIA, IL"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-102811957",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "m_id": "S2-553508714",
+      "m_addr": "3315 FREMONT ST, PEORIA, IL"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-102811957",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "m_id": "S3-728090388",
+      "m_addr": "3315 Fremont St, Peoria, Illinois"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-102811957",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "m_id": "S3-449308785",
+      "m_addr": "Fremont St, Peoria, Illinois"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-18727616",
+      "s1_addr": "1056 Belden Avenue, Akron, OH",
+      "m_id": "S2-755677256",
+      "m_addr": "1056-1060 BELDEN AVE, PO BOX 8807, AKRON, OH"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-18727616",
+      "s1_addr": "1056 Belden Avenue, Akron, OH",
+      "m_id": "S3-187831601",
+      "m_addr": "1056c Belden Ave, AKON, Ohio"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-18727616",
+      "s1_addr": "1056 Belden Avenue, Akron, OH",
+      "m_id": "S3-641489370",
+      "m_addr": "1056c Belden Ave, AKON, Ohio"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-546142636",
+      "s1_addr": "8706 Kentucky Derby Drive, Waxhaw, NC",
+      "m_id": "S2-487600131",
+      "m_addr": "8706 KENTUCKY DERBY DR, WAXHAW, NC"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-546142636",
+      "s1_addr": "8706 Kentucky Derby Drive, Waxhaw, NC",
+      "m_id": "S2-582477216",
+      "m_addr": "8706 KENTUCKY DERBY DR, WAXHAW, NC"
+    }
+  ],
+  "addr_landmark": [
+    {
+      "country": "US",
+      "s1_id": "S1-793447671",
+      "s1_addr": "8082 Armiger Drive, Fl 0, Pasadena, MD",
+      "m_id": "S3-325254367",
+      "m_addr": "Pasadena, 8082b Armiger Drive, Maryland, Floor 0"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-842582339",
+      "s1_addr": "605 Berkeley Way, Fl 1, Medford, OR",
+      "m_id": "S3-517179359",
+      "m_addr": "605 Berkeley Way, Floor 1, Medford, Oregon"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-842582339",
+      "s1_addr": "605 Berkeley Way, Fl 1, Medford, OR",
+      "m_id": "S3-923995241",
+      "m_addr": "605 Berkeley Way, Floor 1, Medford, Oregon"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-842582339",
+      "s1_addr": "605 Berkeley Way, Fl 1, Medford, OR",
+      "m_id": "S3-789259677",
+      "m_addr": "605 Berkeley Way, Floor 1, Medford, Oregon"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-829232083",
+      "s1_addr": "Y.L.Randive House, A.S.Road A.S.Road, Thane, Maharashtra",
+      "m_id": "S3-248865687",
+      "m_addr": "Plot ##311 Y.l.randive House, A.s.road A.s.road, Thane, MH"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-829232083",
+      "s1_addr": "Y.L.Randive House, A.S.Road A.S.Road, Thane, Maharashtra",
+      "m_id": "S3-919114016",
+      "m_addr": "Plot ##311 Y.l.randive House, Thane, MH"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-817863581",
+      "s1_addr": "D-127/4 Sangam Vihar, Delhi, New Delhi, Delhi",
+      "m_id": "S3-359228059",
+      "m_addr": "Plot 134 D-127/4 Sangam Vihar, Delhi, New Delhi, DL"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-30038696",
+      "s1_addr": "Flat No-D-107, Panda Residency, Bhubaneswar, Khordha, Orissa",
+      "m_id": "S2-789253940",
+      "m_addr": "PLOT 961 FLAT NO-D-107, PANDA RESIDENCY, BHUBANESWAR, KHORDHA, ଓଡ଼ିଶା"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-520706871",
+      "s1_addr": "Sco No-19 Sec-56, Gurugram, Gurgaon, Haryana",
+      "m_id": "S2-905169888",
+      "m_addr": "GURGAON, Haryana, PLOT 555 SCO NO-19 SEC-56, GURUGRAM, GURGAON"
+    },
+    {
+      "country": "India",
+      "s1_id": "S1-520706871",
+      "s1_addr": "Sco No-19 Sec-56, Gurugram, Gurgaon, Haryana",
+      "m_id": "S2-413724070",
+      "m_addr": "PLOT 555 SCO NO-19 SEC-56, GURGAON, Haryana"
+    }
+  ],
+  "addr_missing_components": [],
+  "addr_reordering": [],
+  "addr_missing_in_s2_or_s3": [
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+      "m_id": "S2-681193310",
+      "m_name": "Maure Wilblims Colombier Inc",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+      "m_id": "S2-743505751",
+      "m_name": "Maure Williams Colombier",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+      "m_id": "S3-860443364",
+      "m_name": "Maure Williams Inc Center",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-29845983",
+      "s1_name": "Hendricks and Flowers Inc",
+      "s1_addr": "33 Sleepy Hollow Drive, Danbury, CT",
+      "m_id": "S3-588502663",
+      "m_name": "Hendricks and Inc Flowers",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-730934468",
+      "s1_name": "Orellana Investments LLC",
+      "s1_addr": "728 A Quail Avenue, Fl Ground Floor, Geneva, IA",
+      "m_id": "S2-356983532",
+      "m_name": "Orellana Investments Investments Llc",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-274126313",
+      "s1_name": "Obsidian, LLC",
+      "s1_addr": "3907 Hamilton Road, Deer Park, WA",
+      "m_id": "S2-680265918",
+      "m_name": "obsidian, llc",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-274126313",
+      "s1_name": "Obsidian, LLC",
+      "s1_addr": "3907 Hamilton Road, Deer Park, WA",
+      "m_id": "S3-461175723",
+      "m_name": "Obsidian, [[LLC]]",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-145361722",
+      "s1_name": "Dick Regional Armada Corp",
+      "s1_addr": "33466 Warwick Hills Road, Yucaipa, CA",
+      "m_id": "S2-120366543",
+      "m_name": "Dick Regional",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-65263544",
+      "s1_name": "Caldeon Nova",
+      "s1_addr": "1 Greenbrier Drive, Kimberling City, MO",
+      "m_id": "S2-998270769",
+      "m_name": "CALDEON NOVA LLC",
+      "m_addr": "<EMPTY>"
+    },
+    {
+      "country": "US",
+      "s1_id": "S1-840162906",
+      "s1_name": "Summit Health LLC",
+      "s1_addr": "95 Forest Edge Drive, Eads, TN",
+      "m_id": "S2-129529678",
+      "m_name": "Summit Health Enterprises",
+      "m_addr": "<EMPTY>"
+    }
+  ]
+}

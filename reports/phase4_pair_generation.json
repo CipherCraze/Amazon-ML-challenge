@@ -1,0 +1,120 @@
+{
+  "execution_summary": {
+    "total_runtime_sec": 372.44,
+    "initial_rss_mb": 81.21,
+    "peak_rss_mb": 2611.98,
+    "final_rss_mb": 2611.98,
+    "rss_by_stage": {
+      "Initial State": 81.21,
+      "After Stage 1 (Queries & GT Loaded)": 127.0,
+      "After Stage 2 (Target IDs Mapped)": 1443.69,
+      "After Stage 3 (Block G6 Available)": 1477.8,
+      "After Stage 4 (Train/Val Split Completed)": 1484.01,
+      "After Stage 5 (Streaming & Sampling Done)": 2414.13,
+      "After Stage 6 (Parquet Datasets Saved)": 2566.88,
+      "Final State": 2611.98
+    },
+    "random_seed": 42
+  },
+  "query_population": {
+    "total_s1_queries": 25000,
+    "train_s1_queries": 20000,
+    "val_s1_queries": 5000,
+    "train_country_dist": {
+      "India": 8000,
+      "US": 12000
+    },
+    "val_country_dist": {
+      "US": 3000,
+      "India": 2000
+    },
+    "train_singleton_count": 1116,
+    "val_singleton_count": 280,
+    "train_cross_script_count": 2460,
+    "val_cross_script_count": 615
+  },
+  "ground_truth_and_blocking": {
+    "total_ground_truth_positives": 86570,
+    "blocking_captured_positives": 84966,
+    "blocking_missed_positives": 1604,
+    "blocking_recall_pct": 98.15,
+    "train_captured_positives": 68014,
+    "val_captured_positives": 16952,
+    "total_candidates_evaluated": 115013048,
+    "total_negatives_before_sampling": 114928082
+  },
+  "ratio_benchmarks": {
+    "ratio_1_5": {
+      "total_pairs": 517195,
+      "total_positives": 84966,
+      "total_negatives": 432229,
+      "realized_neg_pos_ratio": 5.09,
+      "train_pairs": 413983,
+      "val_pairs": 103212,
+      "train_positives": 68014,
+      "train_negatives": 345969,
+      "val_positives": 16952,
+      "val_negatives": 86260,
+      "hard_negatives": 256859,
+      "hard_negative_pct": 59.43,
+      "medium_negatives": 33440,
+      "medium_negative_pct": 7.74,
+      "background_negatives": 141930,
+      "background_negative_pct": 32.84,
+      "s2_candidate_pairs": 278382,
+      "s3_candidate_pairs": 238813,
+      "file_size_mb": 8.31,
+      "file_path": "phase4/data\\training_pairs_ratio_1_5.parquet"
+    },
+    "ratio_1_10": {
+      "total_pairs": 947310,
+      "total_positives": 84966,
+      "total_negatives": 862344,
+      "realized_neg_pos_ratio": 10.15,
+      "train_pairs": 758256,
+      "val_pairs": 189054,
+      "train_positives": 68014,
+      "train_negatives": 690242,
+      "val_positives": 16952,
+      "val_negatives": 172102,
+      "hard_negatives": 493488,
+      "hard_negative_pct": 57.23,
+      "medium_negatives": 67097,
+      "medium_negative_pct": 7.78,
+      "background_negatives": 301759,
+      "background_negative_pct": 34.99,
+      "s2_candidate_pairs": 514447,
+      "s3_candidate_pairs": 432863,
+      "file_size_mb": 14.05,
+      "file_path": "phase4/data\\training_pairs_ratio_1_10.parquet"
+    },
+    "ratio_1_20": {
+      "total_pairs": 1800777,
+      "total_positives": 84966,
+      "total_negatives": 1715811,
+      "realized_neg_pos_ratio": 20.19,
+      "train_pairs": 1441266,
+      "val_pairs": 359511,
+      "train_positives": 68014,
+      "train_negatives": 1373252,
+      "val_positives": 16952,
+      "val_negatives": 342559,
+      "hard_negatives": 924917,
+      "hard_negative_pct": 53.91,
+      "medium_negatives": 133843,
+      "medium_negative_pct": 7.8,
+      "background_negatives": 657051,
+      "background_negative_pct": 38.29,
+      "s2_candidate_pairs": 979037,
+      "s3_candidate_pairs": 821740,
+      "file_size_mb": 26.14,
+      "file_path": "phase4/data\\training_pairs_ratio_1_20.parquet"
+    }
+  },
+  "artifact_paths": {
+    "ratio_1_5": "phase4/data\\training_pairs_ratio_1_5.parquet",
+    "ratio_1_10": "phase4/data\\training_pairs_ratio_1_10.parquet",
+    "ratio_1_20": "phase4/data\\training_pairs_ratio_1_20.parquet",
+    "block_g6_npz": "phase2/candidates\\cands_block_g6.npz"
+  }
+}

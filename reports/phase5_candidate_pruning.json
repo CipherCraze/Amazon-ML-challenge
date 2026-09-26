@@ -1,0 +1,258 @@
+{
+  "execution_date": "September 2026",
+  "total_runtime_sec": 1654.4,
+  "peak_rss_mb": 12046.91,
+  "dev_benchmark_summary": [
+    {
+      "strategy": "Baseline (Raw Frozen Blocker)",
+      "cands_per_s1_mean": 4600.52,
+      "cands_per_s1_median": 2457.0,
+      "cands_per_s1_p95": 12910.3,
+      "cands_per_s1_p99": 20930.2,
+      "cands_per_s1_max": 44638,
+      "total_candidates": 115013048,
+      "candidate_retention_pct": 100.0,
+      "captured_gt": 84966,
+      "gt_retention_pct": 100.0,
+      "gt_lost_count": 0,
+      "blocking_recall_pct": 98.15,
+      "us_recall_pct": 99.31,
+      "india_recall_pct": 96.4,
+      "same_script_recall_pct": 99.23,
+      "cross_script_recall_pct": 91.12,
+      "s2_recall_pct": 97.99,
+      "s3_recall_pct": 98.29
+    },
+    {
+      "strategy": "Top-25",
+      "cands_per_s1_mean": 1299.99,
+      "cands_per_s1_median": 373.0,
+      "cands_per_s1_p95": 3901.1,
+      "cands_per_s1_p99": 19351.1,
+      "cands_per_s1_max": 41453,
+      "total_candidates": 32499824,
+      "candidate_retention_pct": 28.26,
+      "captured_gt": 84488,
+      "gt_retention_pct": 99.4374,
+      "gt_lost_count": 478,
+      "blocking_recall_pct": 97.6,
+      "us_recall_pct": 98.91,
+      "india_recall_pct": 95.63,
+      "same_script_recall_pct": 98.72,
+      "cross_script_recall_pct": 90.29,
+      "s2_recall_pct": 97.54,
+      "s3_recall_pct": 97.65
+    },
+    {
+      "strategy": "Top-50",
+      "cands_per_s1_mean": 1320.09,
+      "cands_per_s1_median": 392.0,
+      "cands_per_s1_p95": 3926.1,
+      "cands_per_s1_p99": 19363.0,
+      "cands_per_s1_max": 41453,
+      "total_candidates": 33002266,
+      "candidate_retention_pct": 28.69,
+      "captured_gt": 84558,
+      "gt_retention_pct": 99.5198,
+      "gt_lost_count": 408,
+      "blocking_recall_pct": 97.68,
+      "us_recall_pct": 98.97,
+      "india_recall_pct": 95.73,
+      "same_script_recall_pct": 98.8,
+      "cross_script_recall_pct": 90.33,
+      "s2_recall_pct": 97.61,
+      "s3_recall_pct": 97.74
+    },
+    {
+      "strategy": "Top-75",
+      "cands_per_s1_mean": 1339.79,
+      "cands_per_s1_median": 412.0,
+      "cands_per_s1_p95": 3943.0,
+      "cands_per_s1_p99": 19363.0,
+      "cands_per_s1_max": 41453,
+      "total_candidates": 33494632,
+      "candidate_retention_pct": 29.12,
+      "captured_gt": 84609,
+      "gt_retention_pct": 99.5798,
+      "gt_lost_count": 357,
+      "blocking_recall_pct": 97.73,
+      "us_recall_pct": 99.02,
+      "india_recall_pct": 95.82,
+      "same_script_recall_pct": 98.86,
+      "cross_script_recall_pct": 90.37,
+      "s2_recall_pct": 97.66,
+      "s3_recall_pct": 97.8
+    },
+    {
+      "strategy": "Top-100",
+      "cands_per_s1_mean": 1359.13,
+      "cands_per_s1_median": 433.0,
+      "cands_per_s1_p95": 3953.2,
+      "cands_per_s1_p99": 19363.0,
+      "cands_per_s1_max": 41453,
+      "total_candidates": 33978198,
+      "candidate_retention_pct": 29.54,
+      "captured_gt": 84637,
+      "gt_retention_pct": 99.6128,
+      "gt_lost_count": 329,
+      "blocking_recall_pct": 97.77,
+      "us_recall_pct": 99.04,
+      "india_recall_pct": 95.87,
+      "same_script_recall_pct": 98.89,
+      "cross_script_recall_pct": 90.42,
+      "s2_recall_pct": 97.69,
+      "s3_recall_pct": 97.84
+    }
+  ],
+  "test_sample_stats": {
+    "France": {
+      "Raw Blocker": {
+        "mean": 5750.3,
+        "median": 3887.5,
+        "p95": 18016.2,
+        "max": 30456
+      },
+      "Top-25": {
+        "mean": 4372.8,
+        "median": 2844.0,
+        "p95": 13807.8,
+        "max": 30456
+      },
+      "Top-50": {
+        "mean": 4390.7,
+        "median": 2858.5,
+        "p95": 13831.8,
+        "max": 30456
+      },
+      "Top-75": {
+        "mean": 4407.6,
+        "median": 2878.0,
+        "p95": 13855.6,
+        "max": 30456
+      },
+      "Top-100": {
+        "mean": 4423.2,
+        "median": 2890.5,
+        "p95": 13879.3,
+        "max": 30456
+      }
+    },
+    "US": {
+      "Raw Blocker": {
+        "mean": 4507.8,
+        "median": 2454.5,
+        "p95": 13696.0,
+        "max": 24624
+      },
+      "Top-25": {
+        "mean": 939.4,
+        "median": 170.5,
+        "p95": 2818.2,
+        "max": 24624
+      },
+      "Top-50": {
+        "mean": 960.6,
+        "median": 190.5,
+        "p95": 2843.2,
+        "max": 24624
+      },
+      "Top-75": {
+        "mean": 981.7,
+        "median": 211.5,
+        "p95": 2868.2,
+        "max": 24624
+      },
+      "Top-100": {
+        "mean": 1002.4,
+        "median": 234.0,
+        "p95": 2893.2,
+        "max": 24624
+      }
+    },
+    "India": {
+      "Raw Blocker": {
+        "mean": 2883.4,
+        "median": 1624.5,
+        "p95": 10576.4,
+        "max": 18307
+      },
+      "Top-25": {
+        "mean": 1490.0,
+        "median": 885.0,
+        "p95": 4551.4,
+        "max": 13316
+      },
+      "Top-50": {
+        "mean": 1504.1,
+        "median": 898.5,
+        "p95": 4552.6,
+        "max": 13316
+      },
+      "Top-75": {
+        "mean": 1517.3,
+        "median": 908.5,
+        "p95": 4557.5,
+        "max": 13316
+      },
+      "Top-100": {
+        "mean": 1529.8,
+        "median": 918.0,
+        "p95": 4581.3,
+        "max": 13316
+      }
+    }
+  },
+  "test_extrapolations": [
+    {
+      "strategy": "Raw Blocker",
+      "france_candidates": 1491926836,
+      "us_candidates": 2989149227,
+      "india_candidates": 2335513632,
+      "total_test_candidates": 6816589695,
+      "avg_candidates_per_s1": 3934.4,
+      "estimated_tsv_size_gb": 82.55,
+      "estimated_validator_ram_gb": 470.28
+    },
+    {
+      "strategy": "Top-25",
+      "france_candidates": 1134531706,
+      "us_candidates": 622921776,
+      "india_candidates": 1206879140,
+      "total_test_candidates": 2964332622,
+      "avg_candidates_per_s1": 1711.0,
+      "estimated_tsv_size_gb": 35.91,
+      "estimated_validator_ram_gb": 204.8
+    },
+    {
+      "strategy": "Top-50",
+      "france_candidates": 1139175896,
+      "us_candidates": 636979624,
+      "india_candidates": 1218299943,
+      "total_test_candidates": 2994455463,
+      "avg_candidates_per_s1": 1728.4,
+      "estimated_tsv_size_gb": 36.27,
+      "estimated_validator_ram_gb": 206.87
+    },
+    {
+      "strategy": "Top-75",
+      "france_candidates": 1143560635,
+      "us_candidates": 650971160,
+      "india_candidates": 1228991758,
+      "total_test_candidates": 3023523553,
+      "avg_candidates_per_s1": 1745.1,
+      "estimated_tsv_size_gb": 36.63,
+      "estimated_validator_ram_gb": 208.87
+    },
+    {
+      "strategy": "Top-100",
+      "france_candidates": 1147608086,
+      "us_candidates": 664697454,
+      "india_candidates": 1239116583,
+      "total_test_candidates": 3051422124,
+      "avg_candidates_per_s1": 1761.2,
+      "estimated_tsv_size_gb": 36.96,
+      "estimated_validator_ram_gb": 210.8
+    }
+  ],
+  "ranking_formula": "2.0 * name_jaccard + 1.0 * min(inter_name, 3) + 1.0 * min(inter_addr, 3) + 1.5 * min(inter_nums, 2)"
+}
